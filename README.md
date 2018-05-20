@@ -28,6 +28,9 @@ Image Recognition (Predict if image chip contains ship or iceberg), 2-band HH/HV
 - [**Functional Map of the World Challenge**](https://www.iarpa.gov/challenges/fmow.html) *(IARPA, Dec 2017)*  
 Object Detection (63 categories), 1 million instances, 4/8 band, COCO data format, baseline algorithms
 
+- [**Urban 3D Challenge**](https://www.topcoder.com/urban3d) *(USSOCOM, Dec 2017)*
+Building footprint detection, 50cm 2D RGB ortho photos and 3D data generated from satellite imagery, 3 cities, open source software for winning solutions, data hosted on SpaceNet Challenge Asset Library
+
 - [**NIST DSE Plant Identification with NEON Remote Sensing Data**](https://www.ecodse.org) *(inria.fr, Oct 2017)*  
 Extraction of tree position, species and crown parameters, Hyperspectral (1m), RGB imagery (0.25m), LiDAR point cloud and canopy height model
 
