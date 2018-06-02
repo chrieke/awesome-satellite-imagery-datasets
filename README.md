@@ -3,6 +3,9 @@
 List of machine learning competitions for satellite imagery and remote sensing. Sorted by submission deadline.
 
 ![](header_img.jpg)  
+    
+- [**DOTA: Large-scale Dataset for Object Detection in Aerial Images**](https://captain-whu.github.io/DOTA/index.html) *(Wuhan University et al.)*  
+Object Detection (15 categories), 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only   
 
 - [**xView 2018 Detection Challenge**](http://xviewdataset.org) *(DIUx, Jul 2018)*  
 Object Detection (60 categories), 1 million instances, Worldview-3 imagery (0.3m), COCO data format, pre-trained Tensorflow and Pytorch baseline models
