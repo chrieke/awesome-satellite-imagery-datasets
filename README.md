@@ -40,6 +40,9 @@ Extraction of tree position, species and crown parameters, hyperspectral (1m) & 
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 Image recognition (Predict 1 of 13 land cover and 1 of 4 cloud condition labels per image chip), Amazonian rainforest, 4 band sat. imagery (RGB-NIR, 3-5m), Kaggle kernels
 
+- [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) *(NOAA, Jun 2018)*  
+Object Detection (5 sea lion categories), ~ 80k instances, ~ 1k aerial images, Kaggle kernels  
+
 - [**Spacenet challenge - Round 2**](https://spacenetchallenge.github.io/Competitions/Competition2.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, May 2017)*  
 Building extraction, multiple city aois, 3/8band Worldview-3 imagery (0.3m), SpaceNet Challenge Asset Library
 
