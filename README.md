@@ -38,9 +38,12 @@ Building footprint detection, RGB orthophotos (0.5m), 3 cities, SpaceNet Challen
 Extraction of tree position, species and crown parameters, hyperspectral (1m) & RGB imagery (0.25m), LiDAR point cloud and canopy height model
 
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
-Image recognition (Predict 1 of 13 land cover and 1 of 4 cloud condition labels per image chip), Amazonian rainforest, 4 band sat. imagery (RGB-NIR, 3-5m), Kaggle kernels
+Image recognition (Predict 1 of 13 land cover and 1 of 4 cloud condition labels per image chip), Amazonian rainforest, 4 band sat. imagery (RGB-NIR, 3-5m), Kaggle kernels    
 
-- [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) *(NOAA, Jun 2018)*  
+- [**TiSeLaC : Time Series Land Cover Classification Challenge**](https://sites.google.com/site/dinoienco/tiselc) *(UMR TETIS, Jul 2017)*  
+Land cover time series classification (9 categories), Landsat-8 (30m, 23 images time series, 10 band features), Reunion island   
+
+- [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) *(NOAA, Jun 2017)*  
 Object Detection (5 sea lion categories), ~ 80k instances, ~ 1k aerial images, Kaggle kernels  
 
 - [**Spacenet challenge - Round 2**](https://spacenetchallenge.github.io/Competitions/Competition2.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, May 2017)*  
