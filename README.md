@@ -4,8 +4,11 @@ List of machine learning competitions for satellite imagery and remote sensing. 
 
 ![](header_img.jpg)  
 
+- [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Sep 2018)*  
+Ship Object Detection, 104k trai / 88k test image chips, object pixel masks in run-length encoding format, Kaggle kernels.
+
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*  
-Semantic Segmentation (2 main categories: Corn, Soybeans), Open data, [Landsat 8](https://earthexplorer.usgs.gov) imagery (30m) and [Cropland Data Layer](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/index.php) as ground truth.
+Semantic Segmentation (2 main categories: Corn, Soybeans), Open data, Landsat 8 imagery (30m), Cropland Data Layer as ground truth.
 
 - [**DOTA: Large-scale Dataset for Object Detection in Aerial Images**](https://captain-whu.github.io/DOTA/index.html) *(Wuhan University et al.)*  
 Object Detection (15 categories), 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only   
