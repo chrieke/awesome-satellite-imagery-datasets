@@ -4,22 +4,24 @@ List of machine learning competitions for satellite imagery and remote sensing. 
 
 ![](header_img.jpg)  
 
+- [**Open AI Challenge: Tanzania**](https://blog.werobotics.org/2018/08/06/welcome-to-the-open-ai-tanzania-challenge/) *(WeRobotics & Wordlbank, Oct 2018)*  
+Similar to "Open AI Challenge: Aerial Imagery of South Pacific Islands" (see below). Will update when data is available September 1st.
+
 - [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Sep 2018)*  
-Ship Object Detection, 104k trai / 88k test image chips, object pixel masks in run-length encoding format, Kaggle kernels.
+Ship Object Detection, 104k train / 88k test image chips, object pixel masks in run-length encoding format, Kaggle kernels.
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*  
-Semantic Segmentation (2 main categories: Corn, Soybeans), Open data, Landsat 8 imagery (30m), Cropland Data Layer as ground truth.
+Semantic Segmentation (2 main categories: Corn, Soybeans), Landsat 8 imagery (30m), USDA Cropland Data Layer as ground truth.
 
 - [**DOTA: Large-scale Dataset for Object Detection in Aerial Images**](https://captain-whu.github.io/DOTA/index.html) *(Wuhan University et al.)*  
 Object Detection (15 categories), 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only   
-
 - [**xView 2018 Detection Challenge**](http://xviewdataset.org) *(DIUx, Jul 2018)*  
 Object Detection (60 categories), 1 million instances, Worldview-3 imagery (0.3m), COCO data format, pre-trained Tensorflow and Pytorch baseline models
 
 - [**CrowdAI Mapping Challenge**](https://www.crowdai.org/challenges/mapping-challenge) *(Humanity & Inclusion NGO, May 2018)*  
 Semantic/Instance Segmentation (buildings), RGB sat. imagery, COCO data format
 
-- [**Open AI Challenge: Aerial Imagery of South Pacific Islands**](https://werobotics.org/blog/2018/01/10/open-ai-challenge/) *(Worldbank, May 2018)*  
+- [**Open AI Challenge: Aerial Imagery of South Pacific Islands**](https://werobotics.org/blog/2018/01/10/open-ai-challenge/) *(WeRobotics & Worldbank, May 2018)*  
 Object Detection (4 tree species), Semantic Segmentation (2 road types), RGB UAV imagery (0.4/0.8m), multiple AOIs in Tonga
 
 - [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
