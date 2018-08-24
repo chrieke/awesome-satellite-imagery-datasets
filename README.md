@@ -21,7 +21,7 @@ Object Detection (60 categories), 1 million instances, Worldview-3 imagery (0.3m
 - [**CrowdAI Mapping Challenge**](https://www.crowdai.org/challenges/mapping-challenge) *(Humanity & Inclusion NGO, May 2018)*  
 Semantic/Instance Segmentation (buildings), RGB sat. imagery, COCO data format
 
-- [**Open AI Challenge: Aerial Imagery of South Pacific Islands**](https://werobotics.org/blog/2018/01/10/open-ai-challenge/) *(WeRobotics & Worldbank, May 2018)*  
+- [**Open AI Challenge: Aerial Imagery of South Pacific Islands**](https://blog.werobotics.org/2018/01/11/open-ai-challenge-2/) *(WeRobotics & Worldbank, May 2018)*  
 Object Detection (4 tree species), Semantic Segmentation (2 road types), RGB UAV imagery (0.4/0.8m), multiple AOIs in Tonga
 
 - [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
