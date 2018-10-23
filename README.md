@@ -4,10 +4,14 @@ List of machine learning competitions for satellite imagery and remote sensing. 
 
 ![](header_img.jpg)  
 
-- [**Open AI Challenge: Tanzania**](https://blog.werobotics.org/2018/08/06/welcome-to-the-open-ai-tanzania-challenge/) *(WeRobotics & Wordlbank, Oct 2018)*  
-Similar to "Open AI Challenge: Aerial Imagery of South Pacific Islands" (see below). Will update when data is available September 1st.
+- [**Spacenet Challenge - Round 4**](
+https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, Dec 2018)*  
+Building object detection with Off-Nadir imagery. 126k building polygons (Atlanta). 27 WorldView 2 images from 7-54 degrees off-nadir angle. Bi-cubicly resampled to same number of pixels in each tile despite courser native resolution due to high off-nadir angles.
 
-- [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Sep 2018)*  
+- [**Open AI Challenge: Tanzania**](https://blog.werobotics.org/2018/08/06/welcome-to-the-open-ai-tanzania-challenge/) *(WeRobotics & Wordlbank, Oct 2018)*  
+Similar to "Open AI Challenge: Aerial Imagery of South Pacific Islands" (see below). Dataset still seems not publicly available. Currently checking with WeRobotics.
+
+- [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Sep 2018)* 
 Ship Object Detection, 104k train / 88k test image chips, object pixel masks in run-length encoding format, Kaggle kernels.
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*  
@@ -15,6 +19,7 @@ Semantic Segmentation (2 main categories: Corn, Soybeans), Landsat 8 imagery (30
 
 - [**DOTA: Large-scale Dataset for Object Detection in Aerial Images**](https://captain-whu.github.io/DOTA/index.html) *(Wuhan University et al.)*  
 Object Detection (15 categories), 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only   
+
 - [**xView 2018 Detection Challenge**](http://xviewdataset.org) *(DIUx, Jul 2018)*  
 Object Detection (60 categories), 1 million instances, Worldview-3 imagery (0.3m), COCO data format, pre-trained Tensorflow and Pytorch baseline models
 
@@ -30,7 +35,7 @@ Object Detection (4 tree species), Semantic Segmentation (2 road types), RGB UAV
 - [**IEEE Data Fusion Contest 2018**](http://www.grss-ieee.org/community/technical-committees/data-fusion/data-fusion-contest/) *(IEEE, -Mar 2018)*  
 Land cover classification (20 categories) by fusing data three sources: Multispectral LiDAR, Hyperspectral (1m), RGB imagery (0.05m)
 
-- [**Spacenet challenge - Round 3**](https://spacenetchallenge.github.io/Competitions/Competition3.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, Feb 2018)*  
+- [**Spacenet Challenge - Round 3**](https://spacenetchallenge.github.io/Competitions/Competition3.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, Feb 2018)*  
 Road Extraction, multiple city aois, 3(RGB)/8band Worldview-3 imagery (0.3m), SpaceNet Challenge Asset Library
 
 - [**Statoil/C-CORE Iceberg Classifier Challenge**](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge) *(Statoil/C-CORE, Jan 2018)*  
@@ -54,13 +59,13 @@ Land cover time series classification (9 categories), Landsat-8 (30m, 23 images 
 - [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) *(NOAA, Jun 2017)*  
 Object Detection (5 sea lion categories), ~ 80k instances, ~ 1k aerial images, Kaggle kernels  
 
-- [**Spacenet challenge - Round 2**](https://spacenetchallenge.github.io/Competitions/Competition2.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, May 2017)*  
+- [**Spacenet Challenge - Round 2**](https://spacenetchallenge.github.io/Competitions/Competition2.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, May 2017)*  
 Building extraction, multiple city aois, 3/8band Worldview-3 imagery (0.3m), SpaceNet Challenge Asset Library
 
 - [**DSTL Satellite Imagery Feature Detection challenge**](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) *(Dstl, Feb 2017)*  
 Object Detection & Classification (10 categories). 3/16 band Worldview 3 imagery (0.3m - 7.5m), Kaggle kernels
 
-- [**Spacenet challenge - Round 1**](https://spacenetchallenge.github.io/Competitions/Competition1.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, Jan 2017)*  
+- [**Spacenet Challenge - Round 1**](https://spacenetchallenge.github.io/Competitions/Competition1.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, Jan 2017)*  
 Building extraction, Rio de Janeiro, 3/8band Worldview-3 imagery (0.5m mosaic), SpaceNet Challenge Asset Library
 
 - [**Multi-View Stereo 3D Mapping Challenge**](https://www.iarpa.gov/challenges/3dchallenge.html) *(IARPA, Nov 2016)*  
