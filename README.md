@@ -8,10 +8,10 @@ List of machine learning competitions for satellite imagery and remote sensing. 
 https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, Dec 2018)*  
 Building object detection with Off-Nadir imagery. 126k building polygons (Atlanta). 27 WorldView 2 images from 7-54 degrees off-nadir angle. Bi-cubicly resampled to same number of pixels in each tile despite courser native resolution due to high off-nadir angles.
 
-- [**Open AI Challenge: Tanzania**](https://blog.werobotics.org/2018/08/06/welcome-to-the-open-ai-tanzania-challenge/) *(WeRobotics & Wordlbank, Oct 2018)*  
-Similar to "Open AI Challenge: Aerial Imagery of South Pacific Islands" (see below). Dataset still seems not publicly available. Currently checking with WeRobotics.
+- [**Open AI Challenge: Tanzania**](https://competitions.codalab.org/competitions/20100#learn_the_details-overview) *(WeRobotics & Wordlbank, Nov 2018)*  
+Building object detection & building condition classification (3 classes), RGB UAV imagery - [Link to data](https://docs.google.com/spreadsheets/d/1kHZo2KA0-VtCCcC5tL4N0SpyoxnvH7mLbybZIHZGTfE/edit#gid=0)   
 
-- [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Sep 2018)* 
+- [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Sep 2018)*   
 Ship Object Detection, 104k train / 88k test image chips, object pixel masks in run-length encoding format, Kaggle kernels.
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*  
