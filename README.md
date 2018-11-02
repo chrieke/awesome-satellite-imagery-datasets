@@ -1,6 +1,6 @@
 # Awesome Satellite Imagery Datasets [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)  
 
-List of aerial and satellite imagery datasets for computer vision and deep learning. Instance segmentation, object detection, semantic segmentation, chip classification and other tasks. Newest datasets at the top of each category.   
+List of aerial and satellite imagery datasets for computer vision and deep learning. Newest datasets at the top of each category (Instance segmentation, object detection, semantic segmentation, chip classification, other).   
 
 ![](header_img.jpg)  
 
@@ -44,6 +44,9 @@ Tree position, tree species and crown parameters, hyperspectral (1m) & 0.25m RGB
 - [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) *(NOAA, Jun 2017)*  
 5 sea lion categories, ~ 80k instances, ~ 1k aerial images, Kaggle kernels   
 
+- [**Cars Overhead With Context (COWC)**](https://gdo152.llnl.gov/cowc/) *(Lawrence Livermore National Laboratory)*   
+32716 car bounding boxes, 0.15m aerial imagery, 6 cities    
+
 
 ### Semantic Segmentation   
 
@@ -59,8 +62,11 @@ Building footprint detection, RGB orthophotos (0.5m), 3 cities, SpaceNet Challen
 - [**DSTL Satellite Imagery Feature Detection challenge**](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) *(Dstl, Feb 2017)*  
 10 categories, 57 1x1km images, 0.3m-7.5m res. 3/16-band Worldview 3 imagery, Kaggle kernels   
 
-- [**Inria Aerial Image Labeling**](https://project.inria.fr/aerialimagelabeling/contest/) *(inria.fr)*  
-Semantic Segmentation (buildings), RGB aerial imagery (0.3m), 5 cities   
+- [**Inria Aerial Image Labeling**](https://project.inria.fr/aerialimagelabeling/contest/) *(inria)*  
+Semantic Segmentation (buildings), 0.3m res. RGB aerial imagery, 5 cities   
+
+- [**ISPRS Potsdam 2D Semantic Labeling Contest**](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html) *(ISPRS)*   
+6 urban land cover classes, raster mask labels, 0.05m res. 4-band (RGB-IR) aerial imagery and DSM, 38 image patches     
 
 
 ### Chip classification (Image Recognition)   
@@ -73,6 +79,9 @@ Semantic Segmentation (buildings), RGB aerial imagery (0.3m), 5 cities
 
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 13 land cover categories + 4 cloud condition categories, 5m res. 4-band (RGB-NIR) satelitte imagery, Amazonian rainforest, Kaggle kernels    
+
+- [**UC Merced Land Use Dataset**](http://weegee.vision.ucmerced.edu/datasets/landuse.html) *(UC Merced, Oct 2010)*  
+21 land cover categories from agricultural to parkinglot, 100 chips per class, 0.30m res. aerial imagery   
 
 
 ### Other Focus / Multiple Tasks   
