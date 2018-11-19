@@ -18,14 +18,13 @@ https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(C
 Building footprints & 3 building conditions, RGB UAV imagery - [Link to data](https://docs.google.com/spreadsheets/d/1kHZo2KA0-VtCCcC5tL4N0SpyoxnvH7mLbybZIHZGTfE/edit#gid=0)   
 
 - [**Netherlands LPIS agricultural field boundaries**](https://www.pdok.nl/introductie?articleid=1948958) *(Netherlands Department for Economic Affairs)*   
-294 crop/vegetation catgeories, 780k parcels, yearly dataset for 2009-2018.  
-Open the [atom feed downloadlinks](http://geodata.nationaalgeoregister.nl/brpgewaspercelen/atom/brpgewaspercelen.xml) with Firefox etc., not Chrome. 
+294 crop/vegetation catgeories, 780k parcels, yearly dataset for 2009-2018. Open the [atom feed downloadlinks](http://geodata.nationaalgeoregister.nl/brpgewaspercelen/atom/brpgewaspercelen.xml) with Firefox etc., not Chrome. 
 
 - [**Denmark LPIS agricultural field boundaries**](https://kortdata.fvm.dk/download/Markblokke_Marker?page=MarkerHistoriske) *(Denmark Department for Agriculture)*   
 293 crop/vegetation catgeories, 600k parcels, yearly dataset for 2008-2018   
 
 - [**CrowdAI Mapping Challenge**](https://www.crowdai.org/challenges/mapping-challenge) *(Humanity & Inclusion NGO, May 2018)*  
-Buildings footprints, RGB satelitte imagery, COCO data format   
+Buildings footprints, RGB satellite imagery, COCO data format   
 
 - [**Spacenet Challenge Round 2 - Buildings**](https://spacenetchallenge.github.io/datasets/spacenetBuildings-V2summary.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, May 2017)*  
 685k building footprints, 3/8band Worldview-3 imagery (0.3m res.), 5 cities, SpaceNet Challenge Asset Library   
@@ -81,6 +80,9 @@ Semantic Segmentation (buildings), RGB aerial imagery (0.3m res.), 5 cities
 
 ### Chip classification (Image Recognition)   
 
+- [**Alibaba Cloud German AI Challenge 2018**](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231683&_lang=en_US) *(StepStone, DLR, Alibaba Cloud, Tianchi, Jan 2018)*   
+Local climate zone classification, 17 categories (10 urban e.g. compact high-rise, 7 rural e.g. scattered trees), 400k 32x32 pixel chips covering 42 cities (LCZ42 dataset), Sentinel 2 & Sentinel 1 (both 10m res.)   
+
 - [**Statoil/C-CORE Iceberg Classifier Challenge**](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge) *(Statoil/C-CORE, Jan 2018)*  
 2 categories ship and iceberg, 2-band HH/HV polarization SAR imagery, Kaggle kernels   
 
@@ -91,7 +93,7 @@ Semantic Segmentation (buildings), RGB aerial imagery (0.3m res.), 5 cities
 13 land cover categories + 4 cloud condition categories, 4-band (RGB-NIR) satelitte imagery (5m res.), Amazonian rainforest, Kaggle kernels    
 
 - [**Deepsat: SAT-4/SAT-6 airborne datasets**](https://csc.lsu.edu/~saikat/deepsat/) *(Louisiana State University, 2015)*   
-6 land cover categories, 400k 28x28 pixel chips, 4-band RGBNIR aerial imagery (1m res.) extracted from the 2009 National Agriculture Imagery Program (NAIP), encoded as .mat files   
+6 land cover categories, 400k 28x28 pixel chips, 4-band RGBNIR aerial imagery (1m res.) extracted from the 2009 National Agriculture Imagery Program (NAIP)   
 
 - [**UC Merced Land Use Dataset**](http://weegee.vision.ucmerced.edu/datasets/landuse.html) *(UC Merced, Oct 2010)*   
 21 land cover categories from agricultural to parkinglot, 100 chips per class, aerial imagery (0.30m res.)   
