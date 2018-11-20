@@ -59,20 +59,19 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ### Semantic Segmentation   
 
-- [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*  
-2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.   
-
+- [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
+2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.    
 - [**Spacenet Challenge Round 3 - Roads**](https://spacenetchallenge.github.io/datasets/spacenetRoads-summary.html) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
 8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library   
 
 - [**Urban 3D Challenge**](https://www.topcoder.com/urban3d) *(USSOCOM, Dec 2017)*    
-157k building footprints, RGB orthophotos (0.5m res.), DSM/DTM, 3 cities, SpaceNet Challenge Asset Library   
+157k building footprint masks, RGB orthophotos (0.5m res.), DSM/DTM, 3 cities, SpaceNet Challenge Asset Library   
 
 - [**DSTL Satellite Imagery Feature Detection Challenge**](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) *(Dstl, Feb 2017)*  
 10 land cover categories from crops to vehicle small, 57 1x1km images, 3/16-band Worldview 3 imagery (0.3m-7.5m res.), Kaggle kernels   
 
 - [**Inria Aerial Image Labeling**](https://project.inria.fr/aerialimagelabeling/contest/) *(inria)*  
-Semantic Segmentation (buildings), RGB aerial imagery (0.3m res.), 5 cities   
+Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities   
 
 - [**ISPRS Potsdam 2D Semantic Labeling Contest**](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html) *(ISPRS)*   
 6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches     
@@ -80,7 +79,7 @@ Semantic Segmentation (buildings), RGB aerial imagery (0.3m res.), 5 cities
 
 ### Chip classification (Image Recognition)   
 
-- [**Alibaba Cloud German AI Challenge 2018**](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231683&_lang=en_US) *(StepStone, DLR, Alibaba Cloud, Tianchi, Jan 2018)*   
+- [**Alibaba Cloud German AI Challenge 2019**](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231683&_lang=en_US) *(StepStone, DLR, Alibaba Cloud, Tianchi, Jan 2018)*   
 Local climate zone classification, 17 categories (10 urban e.g. compact high-rise, 7 rural e.g. scattered trees), 400k 32x32 pixel chips covering 42 cities (LCZ42 dataset), Sentinel 2 & Sentinel 1 (both 10m res.)   
 
 - [**Statoil/C-CORE Iceberg Classifier Challenge**](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge) *(Statoil/C-CORE, Jan 2018)*  
@@ -88,6 +87,9 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 
 - [**Functional Map of the World Challenge**](https://www.iarpa.gov/challenges/fmow.html) *(IARPA, Dec 2017)*  
 63 categories from solar farms to shopping malls, 1 million chips, 4/8 band satellite imagery (0.3m res.), COCO data format, baseline models   
+
+- [**EuroSAT**](http://madm.dfki.de/downloads) *(DFK, Aug 2017)*  
+10 land cover categories from industrial to permanent crop, 27k 64x64 pixel chips, 3/16 band Sentinel-2 satellite imagery (10m res.), covering cities in 30 countries   
 
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 13 land cover categories + 4 cloud condition categories, 4-band (RGB-NIR) satelitte imagery (5m res.), Amazonian rainforest, Kaggle kernels    
