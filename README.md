@@ -4,7 +4,10 @@ List of machine learning competitions for satellite imagery and remote sensing. 
 
 ![](header_img.jpg)  
 
-- [**Open AI Challenge: Tanzania**](https://blog.werobotics.org/2018/08/06/welcome-to-the-open-ai-tanzania-challenge/) *(WeRobotics & Wordlbank, Oct 2018)*  
+- [**WiDS Datathon 2019 : Detection of Oil Palm Plantations**](https://www.kaggle.com/c/widsdatathon2019) *(Global WiDS Team & West Big Data Innovation Hub, Jan 2019)*
+Detection of presence of oil palm plantations in satellite imagery of 3-meter spatial resolution. 942/15244 positive/total labels, 256 x 256 pixel dimension
+
+- [**Open AI Challenge: Tanzania**](https://blog.werobotics.org/2018/08/06/welcome-to-the-open-ai-tanzania-challenge/) *(WeRobotics & Worldbank, Oct 2018)*
 Similar to "Open AI Challenge: Aerial Imagery of South Pacific Islands" (see below). Will update when data is available September 1st.
 
 - [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Sep 2018)*  
