@@ -7,6 +7,9 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ### Instance Segmentation   
 
+- [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all)*
+17600 manually segmented 384x384 patches, Landsat 8 imagery (R,G,B,NIR; 30 m res.)
+
 - [**Spacenet Challenge Round 4 - Off-nadir**](
 https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, **Dec 2018**)*   
 126k building footprints (Atlanta), 27 WorldView 2 images (0.3m res.) from 7-54 degrees off-nadir angle. Bi-cubicly resampled to same number of pixels in each image to counter courser native resolution with higher off-nadir angles.  
@@ -58,6 +61,9 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 
 ### Semantic Segmentation   
+
+- [**Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, Feb 2019)*  
+10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth. 
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
 2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.    
