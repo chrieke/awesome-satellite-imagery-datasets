@@ -6,9 +6,6 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ### Instance Segmentation
 
-- [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all)*
-17600 manually segmented 384x384 patches, Landsat 8 imagery (R,G,B,NIR; 30 m res.)
-
 - [**Spacenet Challenge Round 4 - Off-nadir**](
 https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, **Dec 2018**)*   
 126k building footprints (Atlanta), 27 WorldView 2 images (0.3m res.) from 7-54 degrees off-nadir angle. Bi-cubicly resampled to same number of pixels in each image to counter courser native resolution with higher off-nadir angles.  
@@ -62,7 +59,10 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 ### Semantic Segmentation
 
 - [**Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, Feb 2019)*  
-10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth. 
+10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth.  
+
+- [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all)*
+17600 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.)  
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
 2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.    
@@ -84,8 +84,11 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 
 ### Chip classification (Image Recognition)
 
+- [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, Jan 2019)*  
+Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive.  
+
 - [**WiDS Datathon 2019 : Detection of Oil Palm Plantations**](https://www.kaggle.com/c/widsdatathon2019) *(Global WiDS Team & West Big Data Innovation Hub, Jan 2019)*
-Detection of presence of oil palm plantations in satellite imagery of 3-meter spatial resolution. 942/15244 positive/total labels, 256 x 256 pixel dimension
+Prediction of presence of oil palm plantations, Planet satellite imagery (3m res.)., ca. 20k 256 x 256 pixel chips, 2 categories oil-palm and other, annotator confidence score.   
 
 - [**Alibaba Cloud German AI Challenge 2019**](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231683&_lang=en_US) *(StepStone, DLR, Alibaba Cloud, Tianchi, Jan 2018)*   
 Local climate zone classification, 17 categories (10 urban e.g. compact high-rise, 7 rural e.g. scattered trees), 400k 32x32 pixel chips covering 42 cities (LCZ42 dataset), Sentinel 2 & Sentinel 1 (both 10m res.)   
