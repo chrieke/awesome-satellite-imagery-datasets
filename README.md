@@ -1,11 +1,10 @@
-# Awesome Satellite Imagery Datasets [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)  
+# Awesome Satellite Imagery Datasets [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 List of aerial and satellite imagery datasets with annotations for computer vision and deep learning. Newest datasets at the top of each category (Instance segmentation, object detection, semantic segmentation, chip classification, other).   
 
 ![](header_img.jpg)  
 
-
-### Instance Segmentation   
+### Instance Segmentation
 
 - [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all)*
 17600 manually segmented 384x384 patches, Landsat 8 imagery (R,G,B,NIR; 30 m res.)
@@ -36,7 +35,7 @@ Buildings footprints, RGB satellite imagery, COCO data format
 Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), SpaceNet Challenge Asset Library   
 
 
-### Object Detection   
+### Object Detection
 
 - [**DOTA: Large-scale Dataset for Object Detection in Aerial Images**](https://captain-whu.github.io/DOTA/index.html) *(Wuhan University et al.)*  
 15 categories from plane to bridge, 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only      
@@ -60,7 +59,7 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 32k car bounding boxes, aerial imagery (0.15m res.), 6 cities    
 
 
-### Semantic Segmentation   
+### Semantic Segmentation
 
 - [**Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, Feb 2019)*  
 10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth. 
@@ -83,7 +82,10 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches     
 
 
-### Chip classification (Image Recognition)   
+### Chip classification (Image Recognition)
+
+- [**WiDS Datathon 2019 : Detection of Oil Palm Plantations**](https://www.kaggle.com/c/widsdatathon2019) *(Global WiDS Team & West Big Data Innovation Hub, Jan 2019)*
+Detection of presence of oil palm plantations in satellite imagery of 3-meter spatial resolution. 942/15244 positive/total labels, 256 x 256 pixel dimension
 
 - [**Alibaba Cloud German AI Challenge 2019**](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231683&_lang=en_US) *(StepStone, DLR, Alibaba Cloud, Tianchi, Jan 2018)*   
 Local climate zone classification, 17 categories (10 urban e.g. compact high-rise, 7 rural e.g. scattered trees), 400k 32x32 pixel chips covering 42 cities (LCZ42 dataset), Sentinel 2 & Sentinel 1 (both 10m res.)   
@@ -107,7 +109,7 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 21 land cover categories from agricultural to parkinglot, 100 chips per class, aerial imagery (0.30m res.)   
 
 
-### Other Focus / Multiple Tasks   
+### Other Focus / Multiple Tasks
 
 - [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
 Three challenge tracks: Road Extraction, Building Detection, Land cover classification   
@@ -122,4 +124,4 @@ Land cover time series classification (9 categories), Landsat-8 (23 images time 
 Develop a Multi-View Stereo (MVS) 3D mapping algorithm that can convert high-resolution Worldview-3 satellite images to 3D point clouds, 0.2m lidar ground truth data.   
 
 - [**Draper Satellite Image Chronology**](https://www.kaggle.com/c/draper-satellite-image-chronology) *(Draper, Jun 2016)*  
-Predict the chronological order of images taken at the same locations over 5 days, Kaggle kernels   
+Predict the chronological order of images taken at the same locations over 5 days, Kaggle kernels
