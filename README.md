@@ -6,6 +6,10 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ### Instance Segmentation
 
+- [**CanadianBuildingFootprints**](
+https://github.com/Microsoft/CanadianBuildingFootprints) *(Microsoft, **Mar 2019**)*   
+12.6mil building footprints (all of Canada), GeoJSON format, delineation based on Bing imagery using ResNet34 architecture.    
+
 - [**Spacenet Challenge Round 4 - Off-nadir**](
 https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, Dec 2018)*   
 126k building footprints (Atlanta), 27 WorldView 2 images (0.3m res.) from 7-54 degrees off-nadir angle. Bi-cubicly resampled to same number of pixels in each image to counter courser native resolution with higher off-nadir angles.  
