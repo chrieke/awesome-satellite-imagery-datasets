@@ -7,7 +7,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 ### Instance Segmentation
 
 - **Microsoft BuildingFootprints** [**Canada**](https://github.com/Microsoft/CanadianBuildingFootprints) **&** [**USA**](
-https://github.com/microsoft/USBuildingFootprints) *(Microsoft, **Mar 2019**)*   
+https://github.com/microsoft/USBuildingFootprints) *(Microsoft, Mar 2019)*   
 12.6mil (Canada) & 125.2mil (USA) building footprints, GeoJSON format, delineation based on Bing imagery using ResNet34 architecture.    
 
 - [**Spacenet Challenge Round 4 - Off-nadir**](
@@ -62,7 +62,10 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ### Semantic Segmentation
 
-- [**Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, **Feb 2019**)*  
+- [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, **Jun 2019**)*  
+180,748 corresponding image triplets containing Sentinel-1 (VV&VH), Sentinel-2 (all bands, cloud-free), and MODIS-derived land cover maps (IGBP, LCCS, 17 classes, 500m res.). All data upsampled to 10m res., georeferenced, covering all continents and meterological seasons. [Paper](https://arxiv.org/abs/1906.07789)  
+
+- [**Slovenia Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, Feb 2019)*  
 10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth.  
 
 - [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all)*
@@ -88,7 +91,7 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 
 ### Chip classification (Image Recognition)
 
-- [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, **Jan 2019**)*  
+- [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, Jan 2019)*  
 Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive.  
 
 - [**WiDS Datathon 2019 : Detection of Oil Palm Plantations**](https://www.kaggle.com/c/widsdatathon2019) *(Global WiDS Team & West Big Data Innovation Hub, **Jan 2019**)*
