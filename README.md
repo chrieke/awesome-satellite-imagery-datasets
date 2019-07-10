@@ -4,7 +4,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ![](header_img.jpg)  
 
-### 1. Instance Segmentation
+## 1. Instance Segmentation
 
 - **Microsoft BuildingFootprints** [**Canada**](https://github.com/Microsoft/CanadianBuildingFootprints) **&** [**USA**](
 https://github.com/microsoft/USBuildingFootprints) *(Microsoft, Mar 2019)*   
@@ -36,7 +36,7 @@ Buildings footprints, RGB satellite imagery, COCO data format
 Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), SpaceNet Challenge Asset Library   
 
 
-### 2. Object Detection
+## 2. Object Detection
 
 - [**DOTA: Large-scale Dataset for Object Detection in Aerial Images v1.5**](https://captain-whu.github.io/DOAI2019/dataset.html) *(Wuhan University, Jun 2019)*  
 15 categories from plane to bridge, 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only, Paper: [Xia et al. 2018](https://arxiv.org/abs/1711.10398)   
@@ -60,7 +60,7 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 32k car bounding boxes, aerial imagery (0.15m res.), 6 cities, Paper: [Mundhenk et al. 2016](https://arxiv.org/abs/1609.04453)    
 
 
-### Semantic Segmentation
+## 3. Semantic Segmentation
 
 - [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, **Jun 2019**)*  
 180,748 corresponding image triplets containing Sentinel-1 (VV&VH), Sentinel-2 (all bands, cloud-free), and MODIS-derived land cover maps (IGBP, LCCS, 17 classes, 500m res.). All data upsampled to 10m res., georeferenced, covering all continents and meterological seasons, Paper: [Schmitt et al. 2018](https://arxiv.org/abs/1906.07789)  
@@ -86,10 +86,10 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities   
 
 - [**ISPRS Potsdam 2D Semantic Labeling Contest**](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html) *(ISPRS)*   
-6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches     
+6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches   
 
 
-### 3. Scene classification (Chip/Image recognition)
+## 4. Scene classification (Chip/Image recognition)
 
 - [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, Jan 2019)*  
 Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive, Paper: [Sumbul et al. 2019](https://arxiv.org/abs/1902.06148)   
@@ -122,7 +122,7 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 21 land cover categories from agricultural to parkinglot, 100 chips per class, aerial imagery (0.30m res.), Paper: [Yang & Newsam 2010](https://www.researchgate.net/publication/221589425_Bag-of-visual-words_and_spatial_extensions_for_land-use_classification)   
 
 
-### 4. Other Focus / Multiple Tasks
+## 5. Other Focus / Multiple Tasks
 
 - [**IEEE Data Fusion Contest 2019**](http://www.grss-ieee.org/community/technical-committees/data-fusion/) *(IEEE, Mar 2019)*  
 Multiple tracks: Semantic 3D reconstruction, Semantic Stereo, 3D-Point Cloud Classification. Worldview-3 (8-band, 0.35cm res.) satellite imagery, LiDAR (0.80m pulse spacing, ASCII format), semantic labels, urban setting USA, baseline methods provided, Paper: [Le Saux et al. 2019](https://ieeexplore.ieee.org/document/8672157)   
