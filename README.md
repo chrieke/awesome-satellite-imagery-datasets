@@ -1,6 +1,6 @@
 # Awesome Satellite Imagery Datasets [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-List of aerial and satellite imagery datasets with annotations for computer vision and deep learning. Newest datasets at the top of each category (Instance segmentation, object detection, semantic segmentation, chip classification, other).   
+List of aerial and satellite imagery datasets with annotations for computer vision and deep learning. Newest datasets at the top of each category (Instance segmentation, object detection, semantic segmentation, scene classification, other).   
 
 ![](header_img.jpg)  
 
@@ -63,12 +63,12 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 ### Semantic Segmentation
 
 - [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, **Jun 2019**)*  
-180,748 corresponding image triplets containing Sentinel-1 (VV&VH), Sentinel-2 (all bands, cloud-free), and MODIS-derived land cover maps (IGBP, LCCS, 17 classes, 500m res.). All data upsampled to 10m res., georeferenced, covering all continents and meterological seasons. [Paper](https://arxiv.org/abs/1906.07789)  
+180,748 corresponding image triplets containing Sentinel-1 (VV&VH), Sentinel-2 (all bands, cloud-free), and MODIS-derived land cover maps (IGBP, LCCS, 17 classes, 500m res.). All data upsampled to 10m res., georeferenced, covering all continents and meterological seasons, Paper: [Schmitt et al. 2018](https://arxiv.org/abs/1906.07789)  
 
 - [**Slovenia Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, Feb 2019)*  
 10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth.  
 
-- [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all)*
+- [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all)*  
 17600 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.)  
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
@@ -89,7 +89,7 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches     
 
 
-### Chip classification (Image Recognition)
+### Scene classification (Image Recognition, Chip classification)
 
 - [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, Jan 2019)*  
 Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive.  
@@ -111,6 +111,9 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 13 land cover categories + 4 cloud condition categories, 4-band (RGB-NIR) satelitte imagery (5m res.), Amazonian rainforest, Kaggle kernels    
+
+- [**RESISC45**](http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html) *(Northwestern Polytechnical University (NWPU), Mar 2017)*  
+45 scene categories from airplane to wetland, 31,500 images (700 per category, 256x256 px), image chips taken from Google Earth (rich image variations in resolution, angle, geography all over the world), Paper: [Cheng et al. 2017](https://arxiv.org/abs/1703.00121)   
 
 - [**Deepsat: SAT-4/SAT-6 airborne datasets**](https://csc.lsu.edu/~saikat/deepsat/) *(Louisiana State University, 2015)*   
 6 land cover categories, 400k 28x28 pixel chips, 4-band RGBNIR aerial imagery (1m res.) extracted from the 2009 National Agriculture Imagery Program (NAIP)   
