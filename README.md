@@ -124,7 +124,10 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 
 ### Other Focus / Multiple Tasks
 
-- [**IEEE Data Fusion Contest 2018**](http://www.grss-ieee.org/community/technical-committees/data-fusion/2018-ieee-grss-data-fusion-contest/) *(IEEE, -Mar 2018)*  
+- [**IEEE Data Fusion Contest 2019**](http://www.grss-ieee.org/community/technical-committees/data-fusion/) *(IEEE, Mar 2019)*  
+Multiple tracks: Semantic 3D reconstruction, Semantic Stereo, 3D-Point Cloud Classification. Worldview-3 (8-band, 0.35cm res.) satellite imagery, LiDAR (0.80m pulse spacing, ASCII format), semantic labels, urban setting USA, baseline methods provided, Paper: [Le Saux et al. 2019](https://ieeexplore.ieee.org/document/8672157)   
+
+- [**IEEE Data Fusion Contest 2018**](http://www.grss-ieee.org/community/technical-committees/data-fusion/2018-ieee-grss-data-fusion-contest/) *(IEEE, Mar 2018)*  
 20 land cover categories by fusing three data sources: Multispectral LiDAR, Hyperspectral (1m), RGB imagery (0.05m res.)  
 
 - [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
