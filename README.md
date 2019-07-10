@@ -12,7 +12,7 @@ https://github.com/microsoft/USBuildingFootprints) *(Microsoft, Mar 2019)*
 
 - [**Spacenet Challenge Round 4 - Off-nadir**](
 https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, Dec 2018)*   
-126k building footprints (Atlanta), 27 WorldView 2 images (0.3m res.) from 7-54 degrees off-nadir angle. Bi-cubicly resampled to same number of pixels in each image to counter courser native resolution with higher off-nadir angles.  
+126k building footprints (Atlanta), 27 WorldView 2 images (0.3m res.) from 7-54 degrees off-nadir angle. Bi-cubicly resampled to same number of pixels in each image to counter courser native resolution with higher off-nadir angles, Paper: [Weir et al. 2019](https://arxiv.org/abs/1903.12239)   
 
 - [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Nov 2018)*   
 131k ships, 104k train / 88k test image chips, satellite imagery (1.5m res.), raster mask labels in in run-length encoding format, Kaggle kernels.   
@@ -38,11 +38,11 @@ Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), S
 
 ### Object Detection
 
-- [**DOTA: Large-scale Dataset for Object Detection in Aerial Images**](https://captain-whu.github.io/DOTA/index.html) *(Wuhan University et al.)*  
-15 categories from plane to bridge, 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only      
+- [**DOTA: Large-scale Dataset for Object Detection in Aerial Images v1.5**](https://captain-whu.github.io/DOAI2019/dataset.html) *(Wuhan University, Jun 2019)*  
+15 categories from plane to bridge, 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only, Paper: [Xia et al. 2018](https://arxiv.org/abs/1711.10398)   
 
 - [**xView 2018 Detection Challenge**](http://xviewdataset.org) *(DIUx, Jul 2018)*   
-60 categories from helicopter to stadium, 1 million instances, Worldview-3 imagery (0.3m res.), COCO data format, pre-trained Tensorflow and Pytorch baseline models   
+60 categories from helicopter to stadium, 1 million instances, Worldview-3 imagery (0.3m res.), COCO data format, pre-trained Tensorflow and Pytorch baseline models, Paper: [Lam et al. 2018](https://arxiv.org/abs/1802.07856)   
 
 - [**Open AI Challenge: Aerial Imagery of South Pacific Islands**](https://docs.google.com/document/d/16kKik2clGutKejU8uqZevNY6JALf4aVk2ELxLeR-msQ/edit) *(WeRobotics & Worldbank, May 2018)*  
 Tree position & 4 tree species, RGB UAV imagery (0.4m/0.8m res.), multiple AOIs in Tonga   
@@ -57,7 +57,7 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 460 categories from airfield to internet cafes, 120k points (11k manually confirmed), 3/8band Worldview-3 imagery (0.5m res.), SpaceNet Challenge Asset Library   
 
 - [**Cars Overhead With Context (COWC)**](https://gdo152.llnl.gov/cowc/) *(Lawrence Livermore National Laboratory)*   
-32k car bounding boxes, aerial imagery (0.15m res.), 6 cities    
+32k car bounding boxes, aerial imagery (0.15m res.), 6 cities, Paper: [Mundhenk et al. 2016](https://arxiv.org/abs/1609.04453)    
 
 
 ### Semantic Segmentation
@@ -68,13 +68,13 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 - [**Slovenia Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, Feb 2019)*  
 10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth.  
 
-- [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all)*  
-17600 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.)  
+- [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all, Jan 2019)*  
+17600 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.), Paper: [Mohajerani et al. 2019](https://arxiv.org/abs/1901.10077)  
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
 2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.    
 - [**Spacenet Challenge Round 3 - Roads**](https://spacenetchallenge.github.io/datasets/spacenetRoads-summary.html) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
-8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library   
+8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library, Paper: [Van Etten et al. 2018](https://arxiv.org/abs/1807.01232)   
 
 - [**Urban 3D Challenge**](https://www.topcoder.com/urban3d) *(USSOCOM, Dec 2017)*    
 157k building footprint masks, RGB orthophotos (0.5m res.), DSM/DTM, 3 cities, SpaceNet Challenge Asset Library   
@@ -92,7 +92,7 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 ### Scene classification (Image Recognition, Chip classification)
 
 - [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, Jan 2019)*  
-Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive.  
+Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive, Paper: [Sumbul et al. 2019](https://arxiv.org/abs/1902.06148)   
 
 - [**WiDS Datathon 2019 : Detection of Oil Palm Plantations**](https://www.kaggle.com/c/widsdatathon2019) *(Global WiDS Team & West Big Data Innovation Hub, **Jan 2019**)*
 Prediction of presence of oil palm plantations, Planet satellite imagery (3m res.)., ca. 20k 256 x 256 pixel chips, 2 categories oil-palm and other, annotator confidence score.   
@@ -104,31 +104,31 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 2 categories ship and iceberg, 2-band HH/HV polarization SAR imagery, Kaggle kernels   
 
 - [**Functional Map of the World Challenge**](https://www.iarpa.gov/challenges/fmow.html) *(IARPA, Dec 2017)*  
-63 categories from solar farms to shopping malls, 1 million chips, 4/8 band satellite imagery (0.3m res.), COCO data format, baseline models   
+63 categories from solar farms to shopping malls, 1 million chips, 4/8 band satellite imagery (0.3m res.), COCO data format, baseline models, [Christie et al. 2017](https://arxiv.org/abs/1711.07846)
 
 - [**EuroSAT**](http://madm.dfki.de/downloads) *(DFK, Aug 2017)*  
-10 land cover categories from industrial to permanent crop, 27k 64x64 pixel chips, 3/16 band Sentinel-2 satellite imagery (10m res.), covering cities in 30 countries   
+10 land cover categories from industrial to permanent crop, 27k 64x64 pixel chips, 3/16 band Sentinel-2 satellite imagery (10m res.), covering cities in 30 countries, Paper: [Helber et al. 2017](https://arxiv.org/abs/1709.00029)   
 
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 13 land cover categories + 4 cloud condition categories, 4-band (RGB-NIR) satelitte imagery (5m res.), Amazonian rainforest, Kaggle kernels    
 
-- [**RESISC45**](http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html) *(Northwestern Polytechnical University (NWPU), Mar 2017)*  
+- [**RESISC45**](http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html) *(Northwestern Polytechnical University NWPU, Mar 2017)*  
 45 scene categories from airplane to wetland, 31,500 images (700 per category, 256x256 px), image chips taken from Google Earth (rich image variations in resolution, angle, geography all over the world), Paper: [Cheng et al. 2017](https://arxiv.org/abs/1703.00121)   
 
 - [**Deepsat: SAT-4/SAT-6 airborne datasets**](https://csc.lsu.edu/~saikat/deepsat/) *(Louisiana State University, 2015)*   
-6 land cover categories, 400k 28x28 pixel chips, 4-band RGBNIR aerial imagery (1m res.) extracted from the 2009 National Agriculture Imagery Program (NAIP)   
+6 land cover categories, 400k 28x28 pixel chips, 4-band RGBNIR aerial imagery (1m res.) extracted from the 2009 National Agriculture Imagery Program (NAIP), Paper: [Basu et al. 2015](https://arxiv.org/abs/1509.03602)     
 
 - [**UC Merced Land Use Dataset**](http://weegee.vision.ucmerced.edu/datasets/landuse.html) *(UC Merced, Oct 2010)*   
-21 land cover categories from agricultural to parkinglot, 100 chips per class, aerial imagery (0.30m res.)   
+21 land cover categories from agricultural to parkinglot, 100 chips per class, aerial imagery (0.30m res.), Paper: [Yang & Newsam 2010](https://www.researchgate.net/publication/221589425_Bag-of-visual-words_and_spatial_extensions_for_land-use_classification)   
 
 
 ### Other Focus / Multiple Tasks
 
-- [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
-Three challenge tracks: Road Extraction, Building Detection, Land cover classification   
+- [**IEEE Data Fusion Contest 2018**](http://www.grss-ieee.org/community/technical-committees/data-fusion/2018-ieee-grss-data-fusion-contest/) *(IEEE, -Mar 2018)*  
+20 land cover categories by fusing three data sources: Multispectral LiDAR, Hyperspectral (1m), RGB imagery (0.05m res.)  
 
-- [**IEEE Data Fusion Contest 2018**](http://www.grss-ieee.org/community/technical-committees/data-fusion/data-fusion-contest/) *(IEEE, -Mar 2018)*  
-20 land cover categories by fusing data three sources: Multispectral LiDAR, Hyperspectral (1m), RGB imagery (0.05m res.)   
+- [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
+Three challenge tracks: Road Extraction, Building Detection, Land cover classification, Paper: [Demir et al. 2018](https://arxiv.org/abs/1805.06561)  
 
 - [**TiSeLaC : Time Series Land Cover Classification Challenge**](https://sites.google.com/site/dinoienco/tiselc) *(UMR TETIS, Jul 2017)*  
 Land cover time series classification (9 categories), Landsat-8 (23 images time series, 10 band features, 30m res.), Reunion island   
