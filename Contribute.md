@@ -3,4 +3,4 @@ You can also contact me via [Twitter](https://twitter.com/chrieke).
 
 
 A huge thank you to previous contributors:   
-Varunjay, anzupanc, jmorrison1847, DeepVoltaire, wassname, qubvel, hgold0325, Melykuti, GokulNC
+benmack, Varunjay, anzupanc, jmorrison1847, DeepVoltaire, wassname, qubvel, hgold0325, Melykuti, GokulNC
