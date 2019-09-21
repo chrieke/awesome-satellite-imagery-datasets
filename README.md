@@ -104,7 +104,7 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches   
 
 
-## 4. Scene classification (Chip/Image recognition)
+## 4. Scene classification (chip/Image recognition)
 
 - [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, Jan 2019)*  
 Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive, Paper: [Sumbul et al. 2019](https://arxiv.org/abs/1902.06148)   
@@ -114,6 +114,9 @@ Prediction of presence of oil palm plantations, Planet satellite imagery (3m res
 
 - [**So2Sat LCZ42**](https://mediatum.ub.tum.de/1454690) *(TUM Munich & DLR, Aug 2018)*   
 Local climate zone classification, 17 categories (10 urban e.g. compact high-rise, 7 rural e.g. scattered trees), 400k 32x32 pixel chips covering 42 cities (LCZ42 dataset), Sentinel 1 & Sentinel 2 (both 10m res.), 51 GB   
+
+- [**Cactus Aerial Photos**](https://www.kaggle.com/irvingvasquez/cactus-aerial-photos) *(CONACYT Mexico, Jun 2018)*  
+17k aerial photos, 13k cactus, 4k non-actus, Kaggle kernels, Paper: [López-Jiménez et al. 2019](https://www.sciencedirect.com/science/article/pii/S1574954119300895?via%3Dihub)
 
 - [**Statoil/C-CORE Iceberg Classifier Challenge**](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge) *(Statoil/C-CORE, Jan 2018)*  
 2 categories ship and iceberg, 2-band HH/HV polarization SAR imagery, Kaggle kernels   
