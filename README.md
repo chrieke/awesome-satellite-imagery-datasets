@@ -4,6 +4,15 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ![](header_img.jpg)  
 
+## Hightlights and recent additions
+
+- [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) **(DIUx, Nov 2019)**   
+550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.html)  
+
+- [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, *Jun 2019*)*  
+180,748 corresponding image triplets containing Sentinel-1 (VV&VH), Sentinel-2 (all bands, cloud-free), and MODIS-derived land cover maps (IGBP, LCCS, 17 classes, 500m res.). All data upsampled to 10m res., georeferenced, covering all continents and meterological seasons, Paper: [Schmitt et al. 2018](https://arxiv.org/abs/1906.07789)  
+
+
 ## 1. Instance Segmentation
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) **(DIUx, Nov 2019)**   
