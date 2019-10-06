@@ -80,6 +80,9 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ## 3. Semantic Segmentation
 
+- [**Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/142/) *(DRIVENDATA, MathWorks, Dec 2019)*  
+7 areas of high-resolution drone data (4cm res. smallest / largest area: 53492 x 90729 / 26066 x 19271 pixels), 22,553 training polygons with associated target classes (5 roof material types)
+
 - [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/spacenet) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
 2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
 
