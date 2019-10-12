@@ -6,14 +6,14 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and highlights
 
+- [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/) *(MathWorks, WeRobotics, Wordlbank, DrivenData, Dec 2019)*   
+Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided building footprints (22,553), RGB UAV imagery (4cm res., 7 areas in 3 Carribbean countries)
+
 - [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/spacenet) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
 2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*    
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.html)  
-
-- [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, *Jun 2019*)*  
-180,748 corresponding image triplets containing Sentinel-1 (VV&VH), Sentinel-2 (all bands, cloud-free), and MODIS-derived land cover maps (IGBP, LCCS, 17 classes, 500m res.). All data upsampled to 10m res., georeferenced, covering all continents and meterological seasons, Paper: [Schmitt et al. 2018](https://arxiv.org/abs/1906.07789)  
 
 
 ## 1. Instance Segmentation
@@ -80,8 +80,8 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ## 3. Semantic Segmentation
 
-- [**Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/142/) *(DRIVENDATA, MathWorks, Dec 2019)*  
-7 areas of high-resolution drone data (4cm res., smallest / largest area: 53492 x 90729 / 26066 x 19271 pixels), 22,553 training polygons with associated target classes (5 roof material types)
+- [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/) *(MathWorks, WeRobotics, Wordlbank, DrivenData, Dec 2019)*   
+Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided building footprints (22,553), RGB UAV imagery (4cm res., 7 areas in 3 Carribbean countries)
 
 - [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/spacenet) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
 2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
