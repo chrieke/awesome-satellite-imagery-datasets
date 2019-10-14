@@ -113,6 +113,15 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 - [**ISPRS Potsdam 2D Semantic Labeling Contest**](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html) *(ISPRS)*   
 6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches   
 
+- [**Biome: Landsat 8 Cloud Cover Assessment Validation**](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data) *(USGS, 2016)*  
+Manual annotation of thin and thick cloud as well as cloud shadow. Full Landsat 8 scenes (30m res.) divided into 12 biomes with 8 scenes in each, with 96 in total, Paper: [Foga et al. 2017](https://www.sciencedirect.com/science/article/pii/S0034425717301293?via%3Dihub)
+
+- [**SPARCS: Spatial Procedures for Automated Removal of Cloud and Shadow Validation**](https://www.usgs.gov/land-resources/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs-validation) *(USGS, 2016)*   
+7 classes (inc. cloud and cloud shadow) over 80 1000-by-1000 pixel Landsat 8 images (30m res.), Paper: [Hughes, J.M. & Hayes D.J. 2014](https://www.mdpi.com/2072-4292/6/6/4907)
+
+- [**Sentinel-2 ALCD-generated Reference Cloud Masks**](https://zenodo.org/record/1460961#.XYCTRzYzaHt) *(CNES, Oct 2018)*  
+8 classes (inc. cloud and cloud shadow) for 38 Sentinel-2 scenes. Active Learning method used for annotation---not completely manually labelled, Paper: [Baetens et al. 2019](https://www.mdpi.com/2072-4292/11/4/433)
+
 
 ## 4. Scene classification (chip/Image recognition)
 
