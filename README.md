@@ -149,6 +149,8 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 - [**UC Merced Land Use Dataset**](http://weegee.vision.ucmerced.edu/datasets/landuse.html) *(UC Merced, Oct 2010)*   
 21 land cover categories from agricultural to parkinglot, 100 chips per class, aerial imagery (0.30m res.), Paper: [Yang & Newsam 2010](https://www.researchgate.net/publication/221589425_Bag-of-visual-words_and_spatial_extensions_for_land-use_classification)   
 
+- [**SEN1-2 Dataset: Deep Learning in SAR-Optical Data Fusion**](https://www.isprs.org/news/announcements/details.aspx?ID=175) *(ISPRS, Oct 2018)*
+SEN1-2 consists of 282,384 pairs of corresponding Sentinel-1 SAR and Sentinel-2 optical image patches, collected from across the globe  and throughout all meteorological seasons. Paper: [Schmitt et al. 2018](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-1/141/2018/)
 
 ## 5. Other Focus / Multiple Tasks
 
