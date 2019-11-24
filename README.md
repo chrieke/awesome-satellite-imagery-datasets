@@ -9,7 +9,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 - [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/) *(MathWorks, WeRobotics, Wordlbank, DrivenData, Dec 2019)*   
 Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided building footprints (22,553), RGB UAV imagery (4cm res., 7 areas in 3 Carribbean countries)
 
-- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/spacenet) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
+- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/challenges/30099956) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
 2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*    
@@ -35,7 +35,7 @@ https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(C
 - [**Open AI Challenge: Tanzania**](https://competitions.codalab.org/competitions/20100#learn_the_details-overview) *(WeRobotics & Wordlbank, Nov 2018)*   
 Building footprints & 3 building conditions, RGB UAV imagery - [Link to data](https://docs.google.com/spreadsheets/d/1kHZo2KA0-VtCCcC5tL4N0SpyoxnvH7mLbybZIHZGTfE/edit#gid=0)   
 
-- [**Netherlands LPIS agricultural field boundaries**](https://www.pdok.nl/introductie?articleid=1948958) *(Netherlands Department for Economic Affairs)*   
+- [**Netherlands LPIS agricultural field boundaries**](https://www.pdok.nl/introductie/-/article/basisregistratie-gewaspercelen-brp-) *(Netherlands Department for Economic Affairs)*   
 294 crop/vegetation catgeories, 780k parcels, yearly dataset for 2009-2018. Open the [atom feed downloadlinks](http://geodata.nationaalgeoregister.nl/brpgewaspercelen/atom/brpgewaspercelen.xml) with Firefox etc., not Chrome. 
 
 - [**Denmark LPIS agricultural field boundaries**](https://kortdata.fvm.dk/download/Markblokke_Marker?page=MarkerHistoriske) *(Denmark Department for Agriculture)*   
@@ -83,7 +83,7 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 - [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/) *(MathWorks, WeRobotics, Wordlbank, DrivenData, Dec 2019)*   
 Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided building footprints (22,553), RGB UAV imagery (4cm res., 7 areas in 3 Carribbean countries)
 
-- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/spacenet) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
+- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/challenges/30099956) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
 2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
 
 - [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, Jun 2019)*  
@@ -101,7 +101,7 @@ Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided
 - [**Spacenet Challenge Round 3 - Roads**](https://spacenetchallenge.github.io/datasets/spacenetRoads-summary.html) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
 8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library, Paper: [Van Etten et al. 2018](https://arxiv.org/abs/1807.01232)   
 
-- [**Urban 3D Challenge**](https://www.topcoder.com/urban3d) *(USSOCOM, Dec 2017)*    
+- [**Urban 3D Challenge**](https://spacenetchallenge.github.io/datasets/Urban_3D_Challenge_summary.html) *(USSOCOM, Dec 2017)*    
 157k building footprint masks, RGB orthophotos (0.5m res.), DSM/DTM, 3 cities, SpaceNet Challenge Asset Library   
 
 - [**DSTL Satellite Imagery Feature Detection Challenge**](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) *(Dstl, Feb 2017)*  
