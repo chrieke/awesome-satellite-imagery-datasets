@@ -4,12 +4,15 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ![](header_img.jpg)  
 
-## Recent additions and highlights
+## Recent additions and ongoing competitions
+
+- [**SkyScapes: Urban infrastructure & lane markings**](https://github.com/smajida/SkyScapes) *(DLR, Nov 2019)*   
+Highly accurate street lane markings (12 categories e.g. dash line, long line, zebra zone) & urban infrastructure (19 categories e.g. buildings, roads, vegetation). Aerial imagery (0.13 m res.) for 5.7 km2 of Munich, Germany. Paper: [Azimi et al. 2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Azimi_SkyScapes__Fine-Grained_Semantic_Understanding_of_Aerial_Scenes_ICCV_2019_paper.pdf)
 
 - [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/) *(MathWorks, WeRobotics, Wordlbank, DrivenData, Dec 2019)*   
 Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided building footprints (22,553), RGB UAV imagery (4cm res., 7 areas in 3 Carribbean countries)
 
-- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/spacenet) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
+- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/challenges/30099956) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
 2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*    
@@ -35,7 +38,7 @@ https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(C
 - [**Open AI Challenge: Tanzania**](https://competitions.codalab.org/competitions/20100#learn_the_details-overview) *(WeRobotics & Wordlbank, Nov 2018)*   
 Building footprints & 3 building conditions, RGB UAV imagery - [Link to data](https://docs.google.com/spreadsheets/d/1kHZo2KA0-VtCCcC5tL4N0SpyoxnvH7mLbybZIHZGTfE/edit#gid=0)   
 
-- [**Netherlands LPIS agricultural field boundaries**](https://www.pdok.nl/introductie?articleid=1948958) *(Netherlands Department for Economic Affairs)*   
+- [**Netherlands LPIS agricultural field boundaries**](https://www.pdok.nl/introductie/-/article/basisregistratie-gewaspercelen-brp-) *(Netherlands Department for Economic Affairs)*   
 294 crop/vegetation catgeories, 780k parcels, yearly dataset for 2009-2018. Open the [atom feed downloadlinks](http://geodata.nationaalgeoregister.nl/brpgewaspercelen/atom/brpgewaspercelen.xml) with Firefox etc., not Chrome.
 
 - [**Denmark LPIS agricultural field boundaries**](https://kortdata.fvm.dk/download/Markblokke_Marker?page=MarkerHistoriske) *(Denmark Department for Agriculture)*   
@@ -80,10 +83,13 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ## 3. Semantic Segmentation
 
+- [**SkyScapes: Urban infrastructure & lane markings**](https://github.com/smajida/SkyScapes) *(DLR, Nov 2019)*   
+Highly accurate street lane markings (12 categories e.g. dash line, long line, zebra zone) & urban infrastructure (19 categories e.g. buildings, roads, vegetation). Aerial imagery (0.13 m res.) for 5.7 km2 of Munich, Germany. Paper: [Azimi et al. 2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Azimi_SkyScapes__Fine-Grained_Semantic_Understanding_of_Aerial_Scenes_ICCV_2019_paper.pdf)
+
 - [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/) *(MathWorks, WeRobotics, Wordlbank, DrivenData, Dec 2019)*   
 Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided building footprints (22,553), RGB UAV imagery (4cm res., 7 areas in 3 Carribbean countries)
 
-- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/spacenet) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
+- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/challenges/30099956) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
 2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
 
 - [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, Jun 2019)*  
@@ -95,8 +101,9 @@ Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided
 - [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all, Jan 2019)*  
 17600 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.), Paper: [Mohajerani et al. 2019](https://arxiv.org/abs/1901.10077)
 
-- [**Sentinel-2 ALCD-generated Reference Cloud Masks**](https://zenodo.org/record/1460961#.XYCTRzYzaHt) *(CNES, Oct 2018)*  
-8 classes (inc. cloud and cloud shadow) for 38 Sentinel-2 scenes. Active Learning method used for annotation---not completely manually labelled, Paper: [Baetens et al. 2019](https://www.mdpi.com/2072-4292/11/4/433)
+- [**ALCD Reference Cloud Masks**](https://zenodo.org/record/1460961#.XYCTRzYzaHt) *(CNES, Oct 2018)*  
+8 classes (inc. cloud and cloud shadow) for 38 Sentinel-2 scenes (10 m res.).
+Manual labeling & active learning, Paper: [Baetens et al. 2019](https://www.mdpi.com/2072-4292/11/4/433)
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
 2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.
@@ -104,29 +111,23 @@ Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided
 - [**Spacenet Challenge Round 3 - Roads**](https://spacenetchallenge.github.io/datasets/spacenetRoads-summary.html) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
 8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library, Paper: [Van Etten et al. 2018](https://arxiv.org/abs/1807.01232)   
 
-- [**Urban 3D Challenge**](https://www.topcoder.com/urban3d) *(USSOCOM, Dec 2017)*    
+- [**Urban 3D Challenge**](https://spacenetchallenge.github.io/datasets/Urban_3D_Challenge_summary.html) *(USSOCOM, Dec 2017)*    
 157k building footprint masks, RGB orthophotos (0.5m res.), DSM/DTM, 3 cities, SpaceNet Challenge Asset Library   
 
 - [**DSTL Satellite Imagery Feature Detection Challenge**](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) *(Dstl, Feb 2017)*  
 10 land cover categories from crops to vehicle small, 57 1x1km images, 3/16-band Worldview 3 imagery (0.3m-7.5m res.), Kaggle kernels   
 
-- [**SPARCS: Spatial Procedures for Automated Removal of Cloud and Shadow Validation**](https://www.usgs.gov/land-resources/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs-validation) *(USGS, 2016)*   
-7 classes (inc. cloud and cloud shadow) over 80 1000-by-1000 pixel Landsat 8 images (30m res.), Paper: [Hughes, J.M. & Hayes D.J. 2014](https://www.mdpi.com/2072-4292/6/6/4907)
+- [**SPARCS: S2 Cloud Validation data**](https://www.usgs.gov/land-resources/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs-validation) *(USGS, 2016)*   
+7 categories (cloud, cloud shadows, cloud shadows over water, water etc.), 80 1kx1k px. subset Landsat 8 scenes (30m res.), Paper: [Hughes, J.M. & Hayes D.J. 2014](https://www.mdpi.com/2072-4292/6/6/4907)
 
-- [**Biome: Landsat 8 Cloud Cover Assessment Validation**](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data) *(USGS, 2016)*  
-Manual annotation of thin and thick cloud as well as cloud shadow. Full Landsat 8 scenes (30m res.) divided into 12 biomes with 8 scenes in each, with 96 in total, Paper: [Foga et al. 2017](https://www.sciencedirect.com/science/article/pii/S0034425717301293?via%3Dihub)
+- [**Biome: L8 Cloud Cover Validation data**](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data) *(USGS, 2016)*  
+4 cloud categories (cloud, thin cloud, cloud shadows, clear), 96 Landsat 8 scenes (30m res.), 12 biomes with 8 scenes each, Paper: [Foga et al. 2017](https://www.sciencedirect.com/science/article/pii/S0034425717301293?via%3Dihub)
 
 - [**Inria Aerial Image Labeling**](https://project.inria.fr/aerialimagelabeling/contest/) *(inria.fr)*  
 Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities   
 
 - [**ISPRS Potsdam 2D Semantic Labeling Contest**](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html) *(ISPRS)*   
 6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches   
-
-
-
-
-
-
 
 
 ## 4. Scene classification (chip/Image recognition)
