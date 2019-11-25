@@ -2,7 +2,7 @@
 
 List of aerial and satellite imagery datasets with annotations for computer vision and deep learning. Newest datasets at the top of each category (Instance segmentation, object detection, semantic segmentation, scene classification, other).   
 
-![](header_img.jpg)  
+![](figures/header_img.jpg)  
 
 ## Recent additions and ongoing competitions
 
@@ -17,6 +17,8 @@ Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)*    
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.html)  
+
+![](figures/preview_recent.jpg)  
 
 
 ## 1. Instance Segmentation
