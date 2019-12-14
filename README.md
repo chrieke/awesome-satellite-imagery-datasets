@@ -171,6 +171,9 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 
 ## 5. Other Focus / Multiple Tasks
 
+- [**IEEE Data Fusion Contest 2020**](http://www.grss-ieee.org/community/technical-committees/data-fusion/) *(IEEE & TUM, Mar 2020)*  
+Land cover classification based on SEN12MS dataset (see category Semantic Segmentation on this list), low- and high-resolution tracks.
+
 - [**IEEE Data Fusion Contest 2019**](http://www.grss-ieee.org/community/technical-committees/data-fusion/) *(IEEE, Mar 2019)*  
 Multiple tracks: Semantic 3D reconstruction, Semantic Stereo, 3D-Point Cloud Classification. Worldview-3 (8-band, 0.35cm res.) satellite imagery, LiDAR (0.80m pulse spacing, ASCII format), semantic labels, urban setting USA, baseline methods provided, Paper: [Le Saux et al. 2019](https://ieeexplore.ieee.org/document/8672157)   
 
