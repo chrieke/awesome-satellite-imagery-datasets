@@ -27,8 +27,9 @@ Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.html)   
 
 - **Microsoft BuildingFootprints** [**Canada**](https://github.com/Microsoft/CanadianBuildingFootprints) **&** [**USA**](
-https://github.com/microsoft/USBuildingFootprints) *(Microsoft, Mar 2019)*   
-12.6mil (Canada) & 125.2mil (USA) building footprints, GeoJSON format, delineation based on Bing imagery using ResNet34 architecture.    
+https://github.com/microsoft/USBuildingFootprints) **&** [**Uganda/Tanzania**](
+https://github.com/microsoft/Uganda-Tanzania-Building-Footprints) *(Microsoft, Mar 2019)*   
+12.6mil (Canada) & 125.2mil (USA) & 17.9mil (Uganda/Tanzania) building footprints, GeoJSON format, delineation based on Bing imagery using ResNet34 architecture.    
 
 - [**Spacenet Challenge Round 4 - Off-nadir**](
 https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, Dec 2018)*   
