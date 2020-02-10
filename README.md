@@ -83,6 +83,9 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ## 3. Semantic Segmentation
 
+- [**95-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/95-Cloud-An-Extension-to-38-Cloud-Dataset) *(S. Mohajerani et. all, Jan 2020)*  
+34701 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.), Paper: [Mohajerani et al. 2019](https://arxiv.org/abs/2001.08768)
+
 - [**Open Cities AI Challenge**](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/page/150/) *(GFDRR, Mar 2020)* .   
 790k building footprints from Openstreetmap (2 label quality categories), aerial imagery (0.03-0.2m resolution, RGB, 11k 1024x1024 chips, COG format), 10 cities in Africa.
 
@@ -103,9 +106,6 @@ Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided
 
 - [**Slovenia Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, Feb 2019)*  
 10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth.  
-
-- [**38-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset) *(S. Mohajerani et. all, Jan 2019)*  
-17600 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.), Paper: [Mohajerani et al. 2019](https://arxiv.org/abs/1901.10077)
 
 - [**ALCD Reference Cloud Masks**](https://zenodo.org/record/1460961#.XYCTRzYzaHt) *(CNES, Oct 2018)*  
 8 classes (inc. cloud and cloud shadow) for 38 Sentinel-2 scenes (10 m res.).
