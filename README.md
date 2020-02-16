@@ -6,19 +6,22 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
+- [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
+48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.
+
 - [**Open Cities AI Challenge**](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/page/150/) *(GFDRR, Mar 2020)* .   
 790k building footprints from Openstreetmap (2 label quality categories), aerial imagery (0.03-0.2m resolution, RGB, 11k 1024x1024 chips, COG format), 10 cities in Africa.
 
 - [**DroneDeploy Segmentation Dataset**](https://github.com/dronedeploy/dd-ml-segmentation-benchmark) *(DroneDeploy, Dec 2019)*   
 Drone imagery (0.1m res., RGB), labels (7 land cover catageories: building, clutter, vegetation, water, ground, car) & elevation data, baseline model implementation.
 
-- [**SkyScapes: Urban infrastructure & lane markings**](https://github.com/smajida/SkyScapes) *(DLR, Nov 2019)*   
-Highly accurate street lane markings (12 categories e.g. dash line, long line, zebra zone) & urban infrastructure (19 categories e.g. buildings, roads, vegetation). Aerial imagery (0.13 m res.) for 5.7 km2 of Munich, Germany. Paper: [Azimi et al. 2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Azimi_SkyScapes__Fine-Grained_Semantic_Understanding_of_Aerial_Scenes_ICCV_2019_paper.pdf)
-
 ![](figures/preview_recent.jpg)  
 
 
 ## 1. Instance Segmentation
+
+- [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
+48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.
 
 - [**xView 2 Building Damage Asessment Challenge**](https://xview2.org) *(DIUx, Nov 2019)* .   
 550k building footprints & 4 damage scale categories, 20 global locations and 7 disaster types (wildfire, landslides, dam collapses, volcanic eruptions, earthquakes/tsunamis, wind, flooding), Worldview-3 imagery (0.3m res.), pre-trained baseline model. Paper: [Gupta et al. 2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.html)   
