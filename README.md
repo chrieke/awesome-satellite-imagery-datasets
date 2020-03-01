@@ -8,7 +8,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 - [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC, 
 Intelinair, CVPR, Jan 2020)*   
-Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster).     
+Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster). Paper: [Chiu et al. 2020](https://arxiv.org/abs/2001.01306)   
 
 - [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
 48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.   
@@ -23,7 +23,7 @@ Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 se
 
 - [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC, 
 Intelinair, CVPR, Jan 2020)*   
-Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster).     
+Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster). Paper: [Chiu et al. 2020](https://arxiv.org/abs/2001.01306)  
 
 - [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
 48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.
