@@ -6,19 +6,24 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
+- [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC, 
+Intelinair, CVPR, Jan 2020)*   
+Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster).     
+
 - [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
-48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.
+48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.   
 
 - [**Open Cities AI Challenge**](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/page/150/) *(GFDRR, Mar 2020)* .   
 790k building footprints from Openstreetmap (2 label quality categories), aerial imagery (0.03-0.2m resolution, RGB, 11k 1024x1024 chips, COG format), 10 cities in Africa.
-
-- [**DroneDeploy Segmentation Dataset**](https://github.com/dronedeploy/dd-ml-segmentation-benchmark) *(DroneDeploy, Dec 2019)*   
-Drone imagery (0.1m res., RGB), labels (7 land cover catageories: building, clutter, vegetation, water, ground, car) & elevation data, baseline model implementation.
 
 ![](figures/preview_recent.jpg)  
 
 
 ## 1. Instance Segmentation
+
+- [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC, 
+Intelinair, CVPR, Jan 2020)*   
+Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster).     
 
 - [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
 48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.
