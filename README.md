@@ -63,6 +63,8 @@ Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), S
 
 
 ## 2. Object Detection
+- [**DIOR: Object Detection in Optical Remote Sensing Images**](http://www.escience.cn/people/gongcheng/DIOR.html) *(Zhengzhou Institute of Surveying and Mapping, Aug 2019)*  
+20 categories from plane to wind mill, 192k instances, 23k images, significant variation in spatial res. (from 0.5m to 30m) with fixed size (800x800px) of images, Paper: [Li et al. 2019](https://arxiv.org/abs/1909.00133)  
 
 - [**DOTA: Large-scale Dataset for Object Detection in Aerial Images v1.5**](https://captain-whu.github.io/DOAI2019/dataset.html) *(Wuhan University, Jun 2019)*  
 15 categories from plane to bridge, 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only, Paper: [Xia et al. 2018](https://arxiv.org/abs/1711.10398)   
