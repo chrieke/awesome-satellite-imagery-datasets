@@ -6,22 +6,25 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
-- [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC, 
+- [**RarePlanes: Synthetic Data Takes Flight**](https://aireverie.com/rareplanes) *(CosmiQ Works, A.I.Reverie, June 2020)*   
+Synthetic (630k planes, 50k images) and real (14.7k planes, 253 Worldview-3 images (0.3m res.), 122 locations, 22 countries) plane annotations & properties and satellite images. [Tools](https://github.com/aireveries/RarePlanes). Paper: [Shermeyer et al. 2020](https://arxiv.org/abs/2006.02963)
+
+- [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC,
 Intelinair, CVPR, Jan 2020)*   
 Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster). Paper: [Chiu et al. 2020](https://arxiv.org/abs/2001.01306)   
 
 - [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
 48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.   
 
-- [**Open Cities AI Challenge**](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/page/150/) *(GFDRR, Mar 2020)* .   
-790k building footprints from Openstreetmap (2 label quality categories), aerial imagery (0.03-0.2m resolution, RGB, 11k 1024x1024 chips, COG format), 10 cities in Africa.
-
 ![](figures/preview_recent.jpg)  
 
 
 ## 1. Instance Segmentation
 
-- [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC, 
+- [**RarePlanes: Synthetic Data Takes Flight**](https://aireverie.com/rareplanes) *(CosmiQ Works, A.I.Reverie, June 2020)*   
+Synthetic (630k planes, 50k images) and real (14.7k planes, 253 Worldview-3 images (0.3m res.), 122 locations, 22 countries) plane annotations & properties and satellite images. [Tools](https://github.com/aireveries/RarePlanes). Paper: [Shermeyer et al. 2020](https://arxiv.org/abs/2006.02963)
+
+- [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC,
 Intelinair, CVPR, Jan 2020)*   
 Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster). Paper: [Chiu et al. 2020](https://arxiv.org/abs/2001.01306)  
 
