@@ -6,6 +6,9 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
+- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet, Aug 2020)*   
+Monthly building footprints and Planet imagery (4m. res) timeseries for 2 years, 100 locations around the globe, for building footprint evolution & address propagation. 
+
 - [**RarePlanes: Synthetic Data Takes Flight**](https://aireverie.com/rareplanes) *(CosmiQ Works, A.I.Reverie, June 2020)*   
 Synthetic (630k planes, 50k images) and real (14.7k planes, 253 Worldview-3 images (0.3m res.), 122 locations, 22 countries) plane annotations & properties and satellite images. [Tools](https://github.com/aireveries/RarePlanes). Paper: [Shermeyer et al. 2020](https://arxiv.org/abs/2006.02963)
 
@@ -13,13 +16,13 @@ Synthetic (630k planes, 50k images) and real (14.7k planes, 253 Worldview-3 imag
 Intelinair, CVPR, Jan 2020)*   
 Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 season, 512x512px chips), label masks for 6 field anomaly patterns (Cloud shadow, Double plant, Planter skip, Standing Water, Waterway and Weed cluster). Paper: [Chiu et al. 2020](https://arxiv.org/abs/2001.01306)   
 
-- [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
-48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.   
-
 ![](figures/preview_recent.jpg)  
 
 
 ## 1. Instance Segmentation
+
+- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet, Aug 2020)*   
+Monthly building footprints and Planet imagery (4m. res) timeseries for 2 years, 100 locations around the globe, for building footprint evolution & address propagation. 
 
 - [**RarePlanes: Synthetic Data Takes Flight**](https://aireverie.com/rareplanes) *(CosmiQ Works, A.I.Reverie, June 2020)*   
 Synthetic (630k planes, 50k images) and real (14.7k planes, 253 Worldview-3 images (0.3m res.), 122 locations, 22 countries) plane annotations & properties and satellite images. [Tools](https://github.com/aireveries/RarePlanes). Paper: [Shermeyer et al. 2020](https://arxiv.org/abs/2006.02963)
