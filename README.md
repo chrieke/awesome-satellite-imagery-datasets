@@ -97,6 +97,9 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ## 3. Semantic Segmentation
 
+- [**Sentinel-2 Cloud Mask Catalogue**](https://zenodo.org/record/4172871) *(Francis, A., et al., Nov 2020)*
+513 cropped subscenes (1022x1022 pixels) taken randomly from entire 2018 Sentinel-2 archive. All bands resampled to 20m, stored as numpy arrays. Includes clear, cloud and cloud-shadow classes. Also comes with binary classification tags for each subscene, describing what surface types, cloud types, etc. are present.
+
 - [**LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands and Water from Aerial Imagery**](http://landcover.ai/) *(Boguszewski, A., et al., May 2020)*
 41 orthophotos (9000x9000 px) over Poland, Aerial Imagery (25cm & 50cm res.), manual segmentations masks for Buildings, Woodland and Water, Paper: [Boguszewski et al., 2020](https://arxiv.org/abs/2005.02264)
 
