@@ -70,6 +70,9 @@ Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), S
 
 ## 2. Object Detection
 
+- [**EAGLE: Large-scale Vehicle Detection Dataset inReal-World Scenarios using Aerial Imagery*](https://dlr.de/eoc) *(German Aerospace Center (DLR), August 2020)*  
+large-scale oriented vehicle detection dataset from aerial imagery with small and large vehicles, ~215k instances, Real-world scenarios and imagery, DLR aerial camera platform, Academic use only, Paper: [Azimi et al. 2020](https://arxiv.org/abs/2007.06124) 
+
 - [**DOTA: Large-scale Dataset for Object Detection in Aerial Images v1.5**](https://captain-whu.github.io/DOAI2019/dataset.html) *(Wuhan University, Jun 2019)*  
 15 categories from plane to bridge, 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only, Paper: [Xia et al. 2018](https://arxiv.org/abs/1711.10398)   
 
