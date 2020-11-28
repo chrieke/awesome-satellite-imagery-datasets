@@ -12,8 +12,10 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 - [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://spacenet.ai/sn7-challenge/) *(CosmiQ Works, Planet, Aug 2020)*   
 Monthly building footprints and Planet imagery (4m. res) timeseries for 2 years, 100 locations around the globe, for building footprint evolution & address propagation. 
 
-- [**RarePlanes: Synthetic Data Takes Flight**](https://aireverie.com/rareplanes) *(CosmiQ Works, A.I.Reverie, June 2020)*   
-Synthetic (630k planes, 50k images) and real (14.7k planes, 253 Worldview-3 images (0.3m res.), 122 locations, 22 countries) plane annotations & properties and satellite images. [Tools](https://github.com/aireveries/RarePlanes). Paper: [Shermeyer et al. 2020](https://arxiv.org/abs/2006.02963)
+- **Microsoft BuildingFootprints** [**Canada**](https://github.com/Microsoft/CanadianBuildingFootprints) **&** [**USA**](
+https://github.com/microsoft/USBuildingFootprints) **&** [**Uganda/Tanzania**](
+https://github.com/microsoft/Uganda-Tanzania-Building-Footprints) **&** [Australia](https://github.com/microsoft/AustraliaBuildingFootprints) *(Microsoft, Mar 2019)*   
+12.6mil (Canada) & 125.2mil (USA) & 17.9mil (Uganda/Tanzania) & 11.3mil (Australia) building footprints, GeoJSON format, delineation based on Bing imagery using ResNet34 architecture.    
 
 ![](figures/preview_recent.jpg)  
 
