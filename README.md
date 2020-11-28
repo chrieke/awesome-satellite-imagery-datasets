@@ -70,9 +70,6 @@ Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), S
 
 ## 2. Object Detection
 
-- [**DOTA: Large-scale Dataset for Object Detection in Aerial Images v1.5**](https://captain-whu.github.io/DOAI2019/dataset.html) *(Wuhan University, Jun 2019)*  
-15 categories from plane to bridge, 188k instances, Google Earth image chips, Faster-RCNN baseline model (MXNet), DOTA development kit, Academic use only, Paper: [Xia et al. 2018](https://arxiv.org/abs/1711.10398)   
-
 - [**xView 2018 Detection Challenge**](http://xviewdataset.org) *(DIUx, Jul 2018)*   
 60 categories from helicopter to stadium, 1 million instances, Worldview-3 imagery (0.3m res.), COCO data format, pre-trained Tensorflow and Pytorch baseline models, Paper: [Lam et al. 2018](https://arxiv.org/abs/1802.07856)   
 
