@@ -84,7 +84,6 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 - [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) *(NOAA, Jun 2017)*  
 5 sea lion categories, ~ 80k instances, ~ 1k aerial images, Kaggle kernels   
 
-- [**Spacenet Rio De Janeiro Points of Interest Dataset**](https://spacenetchallenge.github.io/datasets/spacenetPOI-summary.html) *(CosmiQ Works, Radiant Solutions, Jan 2017)*  
 460 categories from airfield to internet cafes, 120k points (11k manually confirmed), 3/8band Worldview-3 imagery (0.5m res.), SpaceNet Challenge Asset Library   
 
 - [**Stanford Drone Data**](http://cvgl.stanford.edu/projects/uav_data/?source=post_page---------------------------) *(Stanford University, Oct 2016)*   
