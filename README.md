@@ -9,7 +9,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 - [**iSAID: Large-scale Dataset for Object Detection in Aerial Images**](https://captain-whu.github.io/iSAID/dataset.html) *(IIAI & Wuhan University, Dec 2019)*  
 15 categories from plane to bridge, 188k instances, object instances and segmentation masks (MS COCO format), Google Earth & JL-1 image chips, Faster-RCNN baseline model (MXNet), [devkit](https://github.com/CAPTAIN-WHU/iSAID_Devkit), Academic use only, replaces [DOTA dataset](https://captain-whu.github.io/DOTA/), Paper: [Zamir et al. 2019](https://arxiv.org/abs/1905.12886)   
 
-- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet, Aug 2020)*   
+- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://spacenet.ai/sn7-challenge/) *(CosmiQ Works, Planet, Aug 2020)*   
 Monthly building footprints and Planet imagery (4m. res) timeseries for 2 years, 100 locations around the globe, for building footprint evolution & address propagation. 
 
 - [**RarePlanes: Synthetic Data Takes Flight**](https://aireverie.com/rareplanes) *(CosmiQ Works, A.I.Reverie, June 2020)*   
@@ -20,13 +20,13 @@ Synthetic (630k planes, 50k images) and real (14.7k planes, 253 Worldview-3 imag
 
 ## 1. Instance Segmentation
 
-- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) *(CosmiQ Works, Planet, Aug 2020)*   
+- [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://spacenet.ai/sn7-challenge/) *(CosmiQ Works, Planet, Aug 2020)*   
 Monthly building footprints and Planet imagery (4m. res) timeseries for 2 years, 100 locations around the globe, for building footprint evolution & address propagation. 
 
 - [**RarePlanes: Synthetic Data Takes Flight**](https://aireverie.com/rareplanes) *(CosmiQ Works, A.I.Reverie, June 2020)*   
 Synthetic (630k planes, 50k images) and real (14.7k planes, 253 Worldview-3 images (0.3m res.), 122 locations, 22 countries) plane annotations & properties and satellite images. [Tools](https://github.com/aireveries/RarePlanes). Paper: [Shermeyer et al. 2020](https://arxiv.org/abs/2006.02963)
 
-- [**Spacenet Challenge Round 6 - Multi-Sensor All Weather Mapping**](https://medium.com/the-downlinq/spacenet-6-dataset-release-66076c8fb79b) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
+- [**SpaceNet: Multi-Sensor All-Weather Mapping**](https://spacenet.ai/sn6-challenge/) *(CosmiQ Works, Capella Space, Maxar, AWS, Intel, Feb 2020)*   
 48k building footprints (enhanced 3DBAG dataset, building height attributes), Capella Space SAR data (0.5m res., four polarizations) & Worldview-3 imagery (0.3m res.), Rotterdam, Netherlands.
 
 - [**Agriculture-Vision Database & CVPR 2020 challenge**](https://www.agriculture-vision.com/dataset) *(UIUC,
@@ -44,8 +44,8 @@ https://github.com/microsoft/USBuildingFootprints) **&** [**Uganda/Tanzania**](
 https://github.com/microsoft/Uganda-Tanzania-Building-Footprints) *(Microsoft, Mar 2019)*   
 12.6mil (Canada) & 125.2mil (USA) & 17.9mil (Uganda/Tanzania) building footprints, GeoJSON format, delineation based on Bing imagery using ResNet34 architecture.    
 
-- [**Spacenet Challenge Round 4 - Off-nadir**](
-https://spacenetchallenge.github.io/datasets/spacenet-OffNadir-summary.html) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, Dec 2018)*   
+- [**SpaceNet 4: Off-Nadir Buildings**](
+https://spacenet.ai/off-nadir-building-detection/) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, Dec 2018)*   
 126k building footprints (Atlanta), 27 WorldView 2 images (0.3m res.) from 7-54 degrees off-nadir angle. Bi-cubicly resampled to same number of pixels in each image to counter courser native resolution with higher off-nadir angles, Paper: [Weir et al. 2019](https://arxiv.org/abs/1903.12239)   
 
 - [**Airbus Ship Detection Challenge**](https://www.kaggle.com/c/airbus-ship-detection) *(Airbus, Nov 2018)*   
@@ -63,10 +63,10 @@ Building footprints & 3 building conditions, RGB UAV imagery - [Link to data](ht
 - [**CrowdAI Mapping Challenge**](https://www.crowdai.org/challenges/mapping-challenge) *(Humanity & Inclusion NGO, May 2018)*  
 Buildings footprints, RGB satellite imagery, COCO data format   
 
-- [**Spacenet Challenge Round 2 - Buildings**](https://spacenetchallenge.github.io/datasets/spacenetBuildings-V2summary.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, May 2017)*  
+- [**SpaceNet 2: Building Detection v2**](https://spacenet.ai/spacenet-buildings-dataset-v2/) *(CosmiQ Works, Radiant Solutions, NVIDIA, May 2017)*  
 685k building footprints, 3/8band Worldview-3 imagery (0.3m res.), 5 cities, SpaceNet Challenge Asset Library   
 
-- [**Spacenet Challenge Round 1 - Buildings**](https://spacenetchallenge.github.io/datasets/spacenetBuildings-V1summary.html) *(CosmiQ Works, Radiant Solutions, NVIDIA, Jan 2017)*  
+- [**SpaceNet 1: Building Detection v1**](https://spacenet.ai/spacenet-buildings-dataset-v1/) *(CosmiQ Works, Radiant Solutions, NVIDIA, Jan 2017)*  
 Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), SpaceNet Challenge Asset Library   
 
 
@@ -117,7 +117,7 @@ Highly accurate street lane markings (12 categories e.g. dash line, long line, z
 - [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/) *(MathWorks, WeRobotics, Wordlbank, DrivenData, Dec 2019)*   
 Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided building footprints (22,553), RGB UAV imagery (4cm res., 7 areas in 3 Carribbean countries)
 
-- [**Spacenet Challenge Round 5 - Road Network Extraction, Routing, Travel Time Estimation**](https://www.topcoder.com/challenges/30099956) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
+- [**SpaceNet 5: Automated Road Network Extraction & Route Travel Time Estimation**](https://spacenet.ai/sn5-challenge/) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
 2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
 
 - [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, Jun 2019)*  
@@ -133,10 +133,10 @@ Manual labeling & active learning, Paper: [Baetens et al. 2019](https://www.mdpi
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
 2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.
 
-- [**Spacenet Challenge Round 3 - Roads**](https://spacenetchallenge.github.io/datasets/spacenetRoads-summary.html) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
+- [**SpaceNet 3: Road Network Detection**](https://spacenet.ai/spacenet-roads-dataset/) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
 8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library, Paper: [Van Etten et al. 2018](https://arxiv.org/abs/1807.01232)   
 
-- [**Urban 3D Challenge**](https://spacenetchallenge.github.io/datasets/Urban_3D_Challenge_summary.html) *(USSOCOM, Dec 2017)*    
+- [**Urban 3D Challenge**](https://spacenet.ai/the-ussocom-urban-3d-competition/) *(USSOCOM, Dec 2017)*    
 157k building footprint masks, RGB orthophotos (0.5m res.), DSM/DTM, 3 cities, SpaceNet Challenge Asset Library   
 
 - [**DSTL Satellite Imagery Feature Detection Challenge**](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) *(Dstl, Feb 2017)*  
