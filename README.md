@@ -84,8 +84,6 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 - [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) *(NOAA, Jun 2017)*  
 5 sea lion categories, ~ 80k instances, ~ 1k aerial images, Kaggle kernels   
 
-460 categories from airfield to internet cafes, 120k points (11k manually confirmed), 3/8band Worldview-3 imagery (0.5m res.), SpaceNet Challenge Asset Library   
-
 - [**Stanford Drone Data**](http://cvgl.stanford.edu/projects/uav_data/?source=post_page---------------------------) *(Stanford University, Oct 2016)*   
 60 aerial UAV videos over Stanford campus and bounding boxes, 6 classes (Pedestrian, Biker, Skateboarder, Cart, Car, Bus), Paper: [Robicquet et al. 2016](https://infoscience.epfl.ch/record/230262/files/ECCV16social.pdf;)    
 
@@ -180,8 +178,8 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 13 land cover categories + 4 cloud condition categories, 4-band (RGB-NIR) satelitte imagery (5m res.), Amazonian rainforest, Kaggle kernels    
 
-- [**RESISC45**](http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html) *(Northwestern Polytechnical University NWPU, Mar 2017)*  
-45 scene categories from airplane to wetland, 31,500 images (700 per category, 256x256 px), image chips taken from Google Earth (rich image variations in resolution, angle, geography all over the world), Paper: [Cheng et al. 2017](https://arxiv.org/abs/1703.00121)   
+- [**RESISC45**](https://www.tensorflow.org/datasets/catalog/resisc45) *(Northwestern Polytechnical University NWPU, Mar 2017)*  
+45 scene categories from airplane to wetland, 31,500 images (700 per category, 256x256 px), image chips taken from Google Earth (rich image variations in resolution, angle, geography all over the world), [Download Link](https://onedrive.live.com/?authkey=%21AHHNaHIlzp%5FIXjs&cid=5C5E061130630A68&id=5C5E061130630A68%21107&parId=5C5E061130630A68%21112&action=locate), Paper: [Cheng et al. 2017](https://arxiv.org/abs/1703.00121)   
 
 - [**Deepsat: SAT-4/SAT-6 airborne datasets**](https://csc.lsu.edu/~saikat/deepsat/) *(Louisiana State University, 2015)*   
 6 land cover categories, 400k 28x28 pixel chips, 4-band RGBNIR aerial imagery (1m res.) extracted from the 2009 National Agriculture Imagery Program (NAIP), Paper: [Basu et al. 2015](https://arxiv.org/abs/1509.03602)     
