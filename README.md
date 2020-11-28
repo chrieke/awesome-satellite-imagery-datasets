@@ -41,8 +41,8 @@ Agricultural Pattern Analysis, 21k aerial farmland images (RGB-NIR, USA, 2019 se
 
 - **Microsoft BuildingFootprints** [**Canada**](https://github.com/Microsoft/CanadianBuildingFootprints) **&** [**USA**](
 https://github.com/microsoft/USBuildingFootprints) **&** [**Uganda/Tanzania**](
-https://github.com/microsoft/Uganda-Tanzania-Building-Footprints) *(Microsoft, Mar 2019)*   
-12.6mil (Canada) & 125.2mil (USA) & 17.9mil (Uganda/Tanzania) building footprints, GeoJSON format, delineation based on Bing imagery using ResNet34 architecture.    
+https://github.com/microsoft/Uganda-Tanzania-Building-Footprints) **&** [Australia](https://github.com/microsoft/AustraliaBuildingFootprints) *(Microsoft, Mar 2019)*   
+12.6mil (Canada) & 125.2mil (USA) & 17.9mil (Uganda/Tanzania) & 11.3mil (Australia) building footprints, GeoJSON format, delineation based on Bing imagery using ResNet34 architecture.    
 
 - [**SpaceNet 4: Off-Nadir Buildings**](
 https://spacenet.ai/off-nadir-building-detection/) *(CosmiQ Works, DigitalGlobe, Radiant Solutions, AWS, Dec 2018)*   
