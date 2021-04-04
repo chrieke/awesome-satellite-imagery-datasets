@@ -55,7 +55,7 @@ https://spacenet.ai/off-nadir-building-detection/) *(CosmiQ Works, DigitalGlobe,
 Building footprints & 3 building conditions, RGB UAV imagery - [Link to data](https://docs.google.com/spreadsheets/d/1kHZo2KA0-VtCCcC5tL4N0SpyoxnvH7mLbybZIHZGTfE/edit#gid=0)   
 
 - [**Netherlands LPIS agricultural field boundaries**](https://www.pdok.nl/introductie/-/article/basisregistratie-gewaspercelen-brp-) *(Netherlands Department for Economic Affairs)*   
-294 crop/vegetation catgeories, 780k parcels, yearly dataset for 2009-2018. Open the [atom feed downloadlinks](http://geodata.nationaalgeoregister.nl/brpgewaspercelen/atom/brpgewaspercelen.xml) with Firefox etc., not Chrome.
+294 crop/vegetation catgeories, 780k parcels, yearly dataset for 2009-2018.
 
 - [**Denmark LPIS agricultural field boundaries**](https://kortdata.fvm.dk/download/Markblokke_Marker?page=MarkerHistoriske) *(Denmark Department for Agriculture)*   
 293 crop/vegetation catgeories, 600k parcels, yearly dataset for 2008-2018   
