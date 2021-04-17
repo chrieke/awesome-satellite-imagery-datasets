@@ -230,6 +230,6 @@ Develop a Multi-View Stereo (MVS) 3D mapping algorithm that can convert high-res
 Predict the chronological order of images taken at the same locations over 5 days, Kaggle kernels
 
 
-## Other Ressources
+## More Resources
 
-- [**Radiant MLHub Training Data Registry**](http://registry.mlhub.earth/)
+- [**Radiant MLHub Training Data Registry**](http://registry.mlhub.earth/)  
