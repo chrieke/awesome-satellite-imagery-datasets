@@ -232,4 +232,5 @@ Predict the chronological order of images taken at the same locations over 5 day
 
 ## More Resources
 
+- [**awesome-remote-sensing-change-detection**](https://github.com/wenhwu/awesome-remote-sensing-change-detection)  
 - [**Radiant MLHub Training Data Registry**](http://registry.mlhub.earth/)  
