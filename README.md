@@ -193,7 +193,7 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 13 land cover categories + 4 cloud condition categories, 4-band (RGB-NIR) satelitte imagery (5m res.), Amazonian rainforest, Kaggle kernels    
 
-- [**AID: Aerial Scene Classification**](https://captain-whu.github.io/AID/) *(Xia et al, 2017)*
+- [**AID: Aerial Scene Classification**](https://captain-whu.github.io/AID/) *(Xia et al, 2017)*  
 10000 aerial images within 30 classes collected from Google Earth imagery.
 
 - [**RESISC45**](https://www.tensorflow.org/datasets/catalog/resisc45) *(Northwestern Polytechnical University NWPU, Mar 2017)*  
