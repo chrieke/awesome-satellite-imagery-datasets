@@ -207,7 +207,12 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 
 - [**IEEE Data Fusion Contest 2021**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-dse/) *(IEEE, HP, SolarAid, Data Science Experts, Mar 2021)*   
 Detection of settlements without electricity, 98 multi-temporal/multi-sensor tiles ( Sentinel-1, Sentinel-2, Landsat-8, VIIRS), per chip & per pixel labels (contains buildings, presence electricity). 
-  
+
+- [**University-1652: Drone-based Geolocalization (Image Retrieval)**](https://dl.acm.org/doi/abs/10.1145/3394171.3413896) *(ACM Multimedia, October 2020)*  
+University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. 
+[[Paper]](https://arxiv.org/abs/2002.12186) [[Slide]](http://zdzheng.xyz/ACM-MM-Talk.pdf)[[Explore Drone-view Data]](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_drone.jpg?raw=true)[[Explore Satellite-view Data]](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_satellite.jpg?raw=true)[[Explore Street-view Data]](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_street.jpg?raw=true)[[Video Sample]](https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080)
+
+
 - [**IEEE Data Fusion Contest 2020**](https://ieee-dataport.org/competitions/2020-ieee-grss-data-fusion-contest) *(IEEE & TUM, Mar 2020)*  
 Land cover classification based on SEN12MS dataset (see category Semantic Segmentation on this list), low- and high-resolution tracks.
 
