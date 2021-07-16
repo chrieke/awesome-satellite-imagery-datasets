@@ -167,12 +167,12 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 6 urban land cover classes, raster mask labels, 4-band RGB-IR aerial imagery (0.05m res.) & DSM, 38 image patches   
 
 
-## 4. Scene classification (chip/Image recognition)
+## 4. Scene classification
 
 - [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, Jan 2019)*  
 Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive, Paper: [Sumbul et al. 2019](https://arxiv.org/abs/1902.06148)   
 
-- [**WiDS Datathon 2019 : Detection of Oil Palm Plantations**](https://www.kaggle.com/c/widsdatathon2019) *(Global WiDS Team & West Big Data Innovation Hub, **Jan 2019**)*
+- [**WiDS Datathon 2019 : Detection of Oil Palm Plantations**](https://www.kaggle.com/c/widsdatathon2019) *(Global WiDS Team & West Big Data Innovation Hub, Jan 2019)*
 Prediction of presence of oil palm plantations, Planet satellite imagery (3m res.)., ca. 20k 256 x 256 pixel chips, 2 categories oil-palm and other, annotator confidence score.   
 
 - [**So2Sat LCZ42**](https://mediatum.ub.tum.de/1454690) *(TUM Munich & DLR, Aug 2018)*   
@@ -193,8 +193,8 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 13 land cover categories + 4 cloud condition categories, 4-band (RGB-NIR) satelitte imagery (5m res.), Amazonian rainforest, Kaggle kernels    
 
-- [**AID: Aerial Scene Classification**](https://captain-whu.github.io/AID/) *(Xia et al, 2017)*  
-10000 aerial images within 30 classes collected from Google Earth imagery.
+- [**AID: Aerial Scene Classification**](https://captain-whu.github.io/AID/) *(Wuhan University, 2017)*  
+10000 aerial images within 30 categories (airport, bare land, baseball field, beach, bridge, ...) collected from Google Earth imagery. Paper: [Xia et al. 2017](https://arxiv.org/abs/1608.05167)
 
 - [**RESISC45**](https://www.tensorflow.org/datasets/catalog/resisc45) *(Northwestern Polytechnical University NWPU, Mar 2017)*  
 45 scene categories from airplane to wetland, 31,500 images (700 per category, 256x256 px), image chips taken from Google Earth (rich image variations in resolution, angle, geography all over the world), [Download Link](https://onedrive.live.com/?authkey=%21AHHNaHIlzp%5FIXjs&cid=5C5E061130630A68&id=5C5E061130630A68%21107&parId=5C5E061130630A68%21112&action=locate), Paper: [Cheng et al. 2017](https://arxiv.org/abs/1703.00121)   
