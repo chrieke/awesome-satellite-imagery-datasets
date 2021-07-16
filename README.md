@@ -6,17 +6,14 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
+- [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) *(Ga̧sienica-Józkowy et al, Jun 2020)*     
+3647 drone images from 50 scenes, 39991 objects with 6 categories (human, wind/sup-board, boat, bouy, sailboat, kayak), Darknet YOLO format, Paper: Authors: [Ga̧sienica-Józkowy et al. 2021](https://www.researchgate.net/publication/348800810_An_ensemble_deep_learning_method_with_optimized_weights_for_drone-based_water_rescue_and_surveillance)    
+  
 - [**NEON Tree Crowns Dataset**](https://zenodo.org/record/3765872#.YHs-MBMzbUI) *(Weinstein et al., 2020)*     
 Individual tree crown objects, height&area estimates, 100 million instances, 37 geographic sites across the US, [DeepForest](https://github.com/weecology/DeepForest) Python package, Paper: [Weinstein et al. 2020](https://elifesciences.org/articles/62922)    
   
 - [**IEEE Data Fusion Contest 2021**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-dse/) *(IEEE, HP, SolarAid, Data Science Experts, Mar 2021)*   
 Detection of settlements without electricity, 98 multi-temporal/multi-sensor tiles ( Sentinel-1, Sentinel-2, Landsat-8, VIIRS), per chip & per pixel labels (contains buildings, presence electricity). 
-  
-- [**FloodNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(UMBC, Microsoft, Texas A&M, Dewberry, May 2021)*  
-2343 UAV images from after Hurricane Harvey, landcover labels (10 categories, e.g. building flooded, building non-flooded, road-flooded, ..), 2 competition tracks (Binary & semantic flood classification; Object counting & condition recognition)  
-  
-- [**Dynamic EarthNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(Planet, DLR, TUM, April 2021)*  
-Weekly Planetscope time-series (3m res.) over 2 years, 75 aois, landcover labels (7 categories), 2 competition tracks (Binary land cover classification & multi-class change detection)
   
 ![](figures/preview_recent.jpg)  
 
@@ -75,6 +72,9 @@ Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), S
 
 ## 2. Object Detection
 
+- [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) *(Ga̧sienica-Józkowy et al, Jun 2020)*     
+3647 drone images from 50 scenes, 39991 objects with 6 categories (human, wind/sup-board, boat, bouy, sailboat, kayak), Darknet YOLO format, Paper: Authors: [Ga̧sienica-Józkowy et al. 2021](https://www.researchgate.net/publication/348800810_An_ensemble_deep_learning_method_with_optimized_weights_for_drone-based_water_rescue_and_surveillance)    
+  
 - [**NEON Tree Crowns Dataset**](https://zenodo.org/record/3765872#.YHs-MBMzbUI) *(Weinstein et al., 2020)*     
 Individual tree crown objects, height&area estimates, 100 million instances, 37 geographic sites across the US, [DeepForest](https://github.com/weecology/DeepForest) Python package, Paper: [Weinstein et al. 2020](https://elifesciences.org/articles/62922)    
     
@@ -193,7 +193,7 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 - [**Planet: Understanding the Amazon from Space**](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) *(Planet, Jul 2017)*  
 13 land cover categories + 4 cloud condition categories, 4-band (RGB-NIR) satelitte imagery (5m res.), Amazonian rainforest, Kaggle kernels    
 
-- [**AID: Aerial Scene Classification**](https://captain-whu.github.io/AID/) *(Wuhan University, 2017)*  
+- [**AID: Aerial Scene Classification**](https://captain-whu.github.io/AID/) *(Xia et al., 2017)*  
 10000 aerial images within 30 categories (airport, bare land, baseball field, beach, bridge, ...) collected from Google Earth imagery. Paper: [Xia et al. 2017](https://arxiv.org/abs/1608.05167)
 
 - [**RESISC45**](https://www.tensorflow.org/datasets/catalog/resisc45) *(Northwestern Polytechnical University NWPU, Mar 2017)*  
