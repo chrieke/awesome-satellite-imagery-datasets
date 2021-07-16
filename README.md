@@ -223,7 +223,7 @@ Multiple tracks: Semantic 3D reconstruction, Semantic Stereo, 3D-Point Cloud Cla
 - [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
 Three challenge tracks: Road Extraction, Building Detection, Land cover classification, Paper: [Demir et al. 2018](https://arxiv.org/abs/1805.06561)  
 
-- [**TiSeLaC : Time Series Land Cover Classification Challenge**](https://sites.google.com/site/dinoienco/tiselc) *(UMR TETIS, Jul 2017)*  
+- [**TiSeLaC: Time Series Land Cover Classification Challenge**](https://sites.google.com/site/dinoienco/tiselac-time-series-land-cover-classification-challenge?authuser=0) *(UMR TETIS, Jul 2017)*  
 Land cover time series classification (9 categories), Landsat-8 (23 images time series, 10 band features, 30m res.), Reunion island   
 
 - [**Multi-View Stereo 3D Mapping Challenge**](https://www.iarpa.gov/challenges/3dchallenge.html) *(IARPA, Nov 2016)*  
