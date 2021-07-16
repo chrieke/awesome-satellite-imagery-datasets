@@ -16,7 +16,7 @@ Detection of settlements without electricity, 98 multi-temporal/multi-sensor til
 2343 UAV images from after Hurricane Harvey, landcover labels (10 categories, e.g. building flooded, building non-flooded, road-flooded, ..), 2 competition tracks (Binary & semantic flood classification; Object counting & condition recognition)  
   
 - [**Dynamic EarthNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(Planet, DLR, TUM, April 2021)*  
-Weekly Planetscrope time-series (3m res.) over 2 years, 75 aois, landcover labels (7 categories), 2 competition tracks (Binary land cover classification & multi-class change detection)
+Weekly Planetscope time-series (3m res.) over 2 years, 75 aois, landcover labels (7 categories), 2 competition tracks (Binary land cover classification & multi-class change detection)
   
 ![](figures/preview_recent.jpg)  
 
@@ -103,7 +103,7 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 2343 UAV images from after Hurricane Harvey, landcover labels (10 categories, e.g. building flooded, building non-flooded, road-flooded, ..), 2 competition tracks (Binary & semantic flood classification; Object counting & condition recognition)  
   
 - [**Dynamic EarthNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(Planet, DLR, TUM, April 2021)*  
-Weekly Planetscrope time-series (3m res.) over 2 years, 75 aois, landcover labels (7 categories), 2 competition tracks (Binary land cover classification & multi-class change detection)  
+Weekly Planetscope time-series (3m res.) over 2 years, 75 aois, landcover labels (7 categories), 2 competition tracks (Binary land cover classification & multi-class change detection)  
 
 - [**Sentinel-2 Cloud Mask Catalogue**](https://zenodo.org/record/4172871) *(Francis, A., et al., Nov 2020)*
 513 cropped subscenes (1022x1022 pixels) taken randomly from entire 2018 Sentinel-2 archive. All bands resampled to 20m, stored as numpy arrays. Includes clear, cloud and cloud-shadow classes. Also comes with binary classification tags for each subscene, describing what surface types, cloud types, etc. are present.
