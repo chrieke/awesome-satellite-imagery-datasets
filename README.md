@@ -6,6 +6,10 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
+- [**PASTIS : Panoptic Agricultural Satellite TIme Series**](https://github.com/VSainteuf/pastis-benchmark) *IGN, July 2021*
+PASTIS is a benchmark dataset for panoptic and semantic segmentation of agricultural parcels from satellite time series. It contains 2,433 patches within the French metropolitan territory with panoptic annotations (instance index + semantic labelfor each pixel). Each patch is a Sentinel-2 multispectral image time series of variable lentgh.
+[Garnot, V. S. F., & Landrieu, L. (2021)](https://arxiv.org/abs/2107.07933)
+
 - [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) *(Ga̧sienica-Józkowy et al, Jun 2020)*     
 3647 drone images from 50 scenes, 39991 objects with 6 categories (human, wind/sup-board, boat, bouy, sailboat, kayak), Darknet YOLO format, Paper: Authors: [Ga̧sienica-Józkowy et al. 2021](https://www.researchgate.net/publication/348800810_An_ensemble_deep_learning_method_with_optimized_weights_for_drone-based_water_rescue_and_surveillance)    
   
@@ -17,8 +21,11 @@ Detection of settlements without electricity, 98 multi-temporal/multi-sensor til
   
 ![](figures/preview_recent.jpg)  
 
-
 ## 1. Instance Segmentation
+
+- [**PASTIS : Panoptic Agricultural Satellite TIme Series**](https://github.com/VSainteuf/pastis-benchmark) *IGN, July 2021*
+PASTIS is a benchmark dataset for panoptic and semantic segmentation of agricultural parcels from satellite time series. It contains 2,433 patches within the French metropolitan territory with panoptic annotations (instance index + semantic labelfor each pixel). Each patch is a Sentinel-2 multispectral image time series of variable lentgh.
+[Garnot, V. S. F., & Landrieu, L. (2021)](https://arxiv.org/abs/2107.07933)
 
 - [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://spacenet.ai/sn7-challenge/) *(CosmiQ Works, Planet, Aug 2020)*   
 Monthly building footprints and Planet imagery (4m. res) timeseries for 2 years, 100 locations around the globe, for building footprint evolution & address propagation. 
