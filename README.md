@@ -56,12 +56,9 @@ https://spacenet.ai/off-nadir-building-detection/) *(CosmiQ Works, DigitalGlobe,
 
 - [**Open AI Challenge: Tanzania**](https://competitions.codalab.org/competitions/20100#learn_the_details-overview) *(WeRobotics & Wordlbank, Nov 2018)*   
 Building footprints & 3 building conditions, RGB UAV imagery - [Link to data](https://docs.google.com/spreadsheets/d/1kHZo2KA0-VtCCcC5tL4N0SpyoxnvH7mLbybZIHZGTfE/edit#gid=0)   
-
-- [**Netherlands LPIS agricultural field boundaries**](https://www.pdok.nl/introductie/-/article/basisregistratie-gewaspercelen-brp-) *(Netherlands Department for Economic Affairs)*   
-294 crop/vegetation catgeories, 780k parcels, yearly dataset for 2009-2018.
-
-- [**Denmark LPIS agricultural field boundaries**](https://kortdata.fvm.dk/download/Markblokke_Marker?page=MarkerHistoriske) *(Denmark Department for Agriculture)*   
-293 crop/vegetation catgeories, 600k parcels, yearly dataset for 2008-2018   
+  
+- **LPIS agricultural field boundaries** [Denmark](https://kortdata.fvm.dk/download/Markblokke_Marker?page=MarkerHistoriske) - [Netherlands](https://www.pdok.nl/introductie/-/article/basisregistratie-gewaspercelen-brp-) - [France](https://www.data.gouv.fr/en/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/)  
+Annual datasets. Denmark: 293 crop/vegetation catgeories, 600k parcels. Netherlands: 294 crop/vegetation catgeories, 780k parcels
 
 - [**CrowdAI Mapping Challenge**](https://www.crowdai.org/challenges/mapping-challenge) *(Humanity & Inclusion NGO, May 2018)*  
 Buildings footprints, RGB satellite imagery, COCO data format   
