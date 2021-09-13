@@ -6,7 +6,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
-- [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*
+- [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*  
   Maritime object bounding boxes for 1k Sentinel-1 scenes (VH & VV polarizations), ancillary data (land/ice mask, bathymetry, wind speed, direction, quality).
   
 - [**University-1652: Drone-based Geolocalization (Image Retrieval)**](https://github.com/layumi/University1652-Baseline) *(ACM Multimedia, Oct 2020)*  
@@ -70,7 +70,7 @@ Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), S
 
 ## 2. Object Detection
 
-- [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*
+- [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*  
   Maritime object bounding boxes for 1k Sentinel-1 scenes (VH & VV polarizations), ancillary data (land/ice mask, bathymetry, wind speed, direction, quality).
 
 - [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) *(Ga̧sienica-Józkowy et al, Jun 2020)*     
