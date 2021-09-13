@@ -9,11 +9,11 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 - [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*
   Maritime object bounding boxes for 1k Sentinel-1 scenes (VH & VV polarizations), ancillary data (land/ice mask, bathymetry, wind speed, direction, quality).
   
+- [**University-1652: Drone-based Geolocalization (Image Retrieval)**](https://github.com/layumi/University1652-Baseline) *(ACM Multimedia, Oct 2020)*  
+Corresponding imagery from drone, satellite and ground camera of 1,652 university buildings, Paper: [Zheng et al. 2020](https://arxiv.org/abs/2002.12186)  
+  
 - [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) *(Ga̧sienica-Józkowy et al, Jun 2020)*     
 3647 drone images from 50 scenes, 39991 objects with 6 categories (human, wind/sup-board, boat, bouy, sailboat, kayak), Darknet YOLO format, Paper: Authors: [Ga̧sienica-Józkowy et al. 2021](https://www.researchgate.net/publication/348800810_An_ensemble_deep_learning_method_with_optimized_weights_for_drone-based_water_rescue_and_surveillance)    
-  
-- [**NEON Tree Crowns Dataset**](https://zenodo.org/record/3765872#.YHs-MBMzbUI) *(Weinstein et al., 2020)*     
-Individual tree crown objects, height&area estimates, 100 million instances, 37 geographic sites across the US, [DeepForest](https://github.com/weecology/DeepForest) Python package, Paper: [Weinstein et al. 2020](https://elifesciences.org/articles/62922)    
   
   
 ![](figures/preview_recent.jpg)  
@@ -212,11 +212,9 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 - [**IEEE Data Fusion Contest 2021**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-dse/) *(IEEE, HP, SolarAid, Data Science Experts, Mar 2021)*   
 Detection of settlements without electricity, 98 multi-temporal/multi-sensor tiles ( Sentinel-1, Sentinel-2, Landsat-8, VIIRS), per chip & per pixel labels (contains buildings, presence electricity). 
 
-- [**University-1652: Drone-based Geolocalization (Image Retrieval)**](https://dl.acm.org/doi/abs/10.1145/3394171.3413896) *(ACM Multimedia, October 2020)*  
-University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. 
-[[Paper]](https://arxiv.org/abs/2002.12186) [[Slide]](http://zdzheng.xyz/ACM-MM-Talk.pdf)[[Explore Drone-view Data]](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_drone.jpg?raw=true)[[Explore Satellite-view Data]](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_satellite.jpg?raw=true)[[Explore Street-view Data]](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_street.jpg?raw=true)[[Video Sample]](https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080)
-
-
+- [**University-1652: Drone-based Geolocalization (Image Retrieval)**](https://github.com/layumi/University1652-Baseline) *(ACM Multimedia, Oct 2020)*  
+Corresponding imagery from drone, satellite and ground camera of 1,652 university buildings, Paper: [Zheng et al. 2020](https://arxiv.org/abs/2002.12186)  
+  
 - [**IEEE Data Fusion Contest 2020**](https://ieee-dataport.org/competitions/2020-ieee-grss-data-fusion-contest) *(IEEE & TUM, Mar 2020)*  
 Land cover classification based on SEN12MS dataset (see category Semantic Segmentation on this list), low- and high-resolution tracks.
 
