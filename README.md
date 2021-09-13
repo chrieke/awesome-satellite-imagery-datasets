@@ -14,6 +14,9 @@ Individual tree crown objects, height&area estimates, 100 million instances, 37 
   
 - [**IEEE Data Fusion Contest 2021**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-dse/) *(IEEE, HP, SolarAid, Data Science Experts, Mar 2021)*   
 Detection of settlements without electricity, 98 multi-temporal/multi-sensor tiles ( Sentinel-1, Sentinel-2, Landsat-8, VIIRS), per chip & per pixel labels (contains buildings, presence electricity). 
+
+- [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*   
+Approximately 1,000 Sentinenl 1 scenes labeled for maritime object detection. Each scene contains 2 SAR images (VH and VV) and 5 ancillary images (wind speed, wind direction, wind quality, land/ice mask, and bathymetry). Technical whitepaper after sign in.
   
 ![](figures/preview_recent.jpg)  
 
