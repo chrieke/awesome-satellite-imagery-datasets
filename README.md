@@ -100,6 +100,9 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ## 3. Semantic Segmentation
 
+- [**LoveDA**](https://github.com/Junjue-Wang/LoveDA) *(Wuhan University, Oct 2021)*  
+5987 image chips (Google Earth), 7 landcover categories, 166768 labels, 3 cities in China. Paper: [Wang et al., 2021](https://arxiv.org/abs/2110.08733)    
+  
 - [**FloodNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(UMBC, Microsoft, Texas A&M, Dewberry, May 2021)*  
 2343 UAV images from after Hurricane Harvey, landcover labels (10 categories, e.g. building flooded, building non-flooded, road-flooded, ..), 2 competition tracks (Binary & semantic flood classification; Object counting & condition recognition)  
   
