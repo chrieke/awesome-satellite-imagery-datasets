@@ -6,20 +6,24 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
+- [**PASTIS : Panoptic Agricultural Satellite TIme Series**](https://github.com/VSainteuf/pastis-benchmark) *(IGN, July 2021)*  
+  124,422 Agricultural parcels, 2,433 Sentinel-2 image chip timeseries, France, panoptic labels (instance index + semantic label for each pixel). Paper:
+[Garnot & Landrieu 2021](https://arxiv.org/abs/2107.07933)  
+  
 - [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*  
   Maritime object bounding boxes for 1k Sentinel-1 scenes (VH & VV polarizations), ancillary data (land/ice mask, bathymetry, wind speed, direction, quality).
   
 - [**University-1652: Drone-based Geolocalization (Image Retrieval)**](https://github.com/layumi/University1652-Baseline) *(ACM Multimedia, Oct 2020)*  
-Corresponding imagery from drone, satellite and ground camera of 1,652 university buildings, Paper: [Zheng et al. 2020](https://arxiv.org/abs/2002.12186)  
-  
-- [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) *(Ga̧sienica-Józkowy et al, Jun 2020)*     
-3647 drone images from 50 scenes, 39991 objects with 6 categories (human, wind/sup-board, boat, bouy, sailboat, kayak), Darknet YOLO format, Paper: Authors: [Ga̧sienica-Józkowy et al. 2021](https://www.researchgate.net/publication/348800810_An_ensemble_deep_learning_method_with_optimized_weights_for_drone-based_water_rescue_and_surveillance)    
-  
+Corresponding imagery from drone, satellite and ground camera of 1,652 university buildings, Paper: [Zheng et al. 2020](https://arxiv.org/abs/2002.12186)
   
 ![](figures/preview_recent.jpg)  
 
 
 ## 1. Instance Segmentation
+
+- [**PASTIS: Panoptic Agricultural Satellite TIme Series**](https://github.com/VSainteuf/pastis-benchmark) *(IGN, July 2021)*  
+  124,422 Agricultural parcels, 2,433 Sentinel-2 image chip timeseries, France, panoptic labels (instance index + semantic label for each pixel). Paper:
+[Garnot & Landrieu 2021](https://arxiv.org/abs/2107.07933)  
 
 - [**SpaceNet 7: Multi-Temporal Urban Development Challenge**](https://spacenet.ai/sn7-challenge/) *(CosmiQ Works, Planet, Aug 2020)*   
 Monthly building footprints and Planet imagery (4m. res) timeseries for 2 years, 100 locations around the globe, for building footprint evolution & address propagation. 
