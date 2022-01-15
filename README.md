@@ -74,10 +74,16 @@ Building footprints (Rio de Janeiro), 3/8band Worldview-3 imagery (0.5m res.), S
 
 ## 2. Object Detection
 
-- [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*  
-  Maritime object bounding boxes for 1k Sentinel-1 scenes (VH & VV polarizations), ancillary data (land/ice mask, bathymetry, wind speed, direction, quality).
+- [**Airbus Aircraft Detection**](https://www.kaggle.com/airbusgeo/airbus-aircrafts-sample-dataset) *(Airbus, Mar 2021)*   
+Aircraft bounding boxes, 103 images of worlwide airports (Pleiades, 0.5m res., 2560px).
+  
+- [**Airbus Oil Storage Detection**](https://www.kaggle.com/airbusgeo/airbus-oil-storage-detection-dataset) *(Airbus, Mar 2021)*   
+Oil storage tank annotations, 98 worldwide images (SPOT, 1.2m res., 2560px).
+  
+- [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*   
+Maritime object bounding boxes for 1k Sentinel-1 scenes (VH & VV polarizations), ancillary data (land/ice mask, bathymetry, wind speed, direction, quality).
 
-- [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) *(Ga̧sienica-Józkowy et al, Jun 2020)*     
+- [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) *(Ga̧sienica-Józkowy et al, Jun 2020)*        
 3647 drone images from 50 scenes, 39991 objects with 6 categories (human, wind/sup-board, boat, bouy, sailboat, kayak), Darknet YOLO format, Paper: Authors: [Ga̧sienica-Józkowy et al. 2021](https://www.researchgate.net/publication/348800810_An_ensemble_deep_learning_method_with_optimized_weights_for_drone-based_water_rescue_and_surveillance)    
   
 - [**NEON Tree Crowns Dataset**](https://zenodo.org/record/3765872#.YHs-MBMzbUI) *(Weinstein et al., 2020)*     
@@ -177,6 +183,9 @@ Building footprint masks, RGB aerial imagery (0.3m res.), 5 cities
 
 ## 4. Scene classification
 
+- [**Airbus Wind Turbine Patches**](https://www.kaggle.com/airbusgeo/airbus-wind-turbines-patches) *(Airbus, Mar 2021)*      
+155k 128x128px image chips with wind turbines (SPOT, 1.5m res.).   
+  
 - [**BigEarthNet: Large-Scale Sentinel-2 Benchmark**](http://bigearth.net) *(TU Berlin, Jan 2019)*  
 Multiple landcover labels per chip based on CORINE Land Cover (CLC) 2018, 590,326 chips from Sentinel-2 L2A scenes (125 Sentinel-2 tiles from 10 European countries, 2017/2018), 66 GB archive, Paper: [Sumbul et al. 2019](https://arxiv.org/abs/1902.06148)   
 
