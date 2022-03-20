@@ -6,16 +6,17 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
+- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(Wuhan University, Oct 2021)*  
+  2343 image chips (drone imagery), 10 landcover categories (background, water, building flooded, building non-flooded,
+  road-flooded, ...). Paper: [Rahnemoonfar et al., 2021](https://arxiv.org/abs/2012.02951)
+- 
 - [**PASTIS : Panoptic Agricultural Satellite TIme Series**](https://github.com/VSainteuf/pastis-benchmark) *(IGN, July 2021)*  
   124,422 Agricultural parcels, 2,433 Sentinel-2 image chip timeseries, France, panoptic labels (instance index + semantic label for each pixel). Paper:
 [Garnot & Landrieu 2021](https://arxiv.org/abs/2107.07933)  
   
 - [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) *(xView3 Team, Aug 2021)*  
   Maritime object bounding boxes for 1k Sentinel-1 scenes (VH & VV polarizations), ancillary data (land/ice mask, bathymetry, wind speed, direction, quality).
-  
-- [**University-1652: Drone-based Geolocalization (Image Retrieval)**](https://github.com/layumi/University1652-Baseline) *(ACM Multimedia, Oct 2020)*  
-Corresponding imagery from drone, satellite and ground camera of 1,652 university buildings, Paper: [Zheng et al. 2020](https://arxiv.org/abs/2002.12186)
-  
+
 ![](figures/preview_recent.jpg)  
 
 
@@ -109,6 +110,10 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 
 ## 3. Semantic Segmentation
+
+- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(Wuhan University, Oct 2021)*  
+  2343 image chips (drone imagery), 10 landcover categories (background, water, building flooded, building non-flooded, 
+  road-flooded, ...). Paper: [Rahnemoonfar et al., 2021](https://arxiv.org/abs/2012.02951)
 
 - [**LoveDA**](https://github.com/Junjue-Wang/LoveDA) *(Wuhan University, Oct 2021)*  
 5987 image chips (Google Earth), 7 landcover categories, 166768 labels, 3 cities in China. Paper: [Wang et al., 2021](https://arxiv.org/abs/2110.08733)    
