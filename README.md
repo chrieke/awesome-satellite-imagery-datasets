@@ -9,7 +9,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 - [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(Wuhan University, Oct 2021)*  
   2343 image chips (drone imagery), 10 landcover categories (background, water, building flooded, building non-flooded,
   road-flooded, ...). Paper: [Rahnemoonfar et al., 2021](https://arxiv.org/abs/2012.02951)
-- 
+
 - [**PASTIS : Panoptic Agricultural Satellite TIme Series**](https://github.com/VSainteuf/pastis-benchmark) *(IGN, July 2021)*  
   124,422 Agricultural parcels, 2,433 Sentinel-2 image chip timeseries, France, panoptic labels (instance index + semantic label for each pixel). Paper:
 [Garnot & Landrieu 2021](https://arxiv.org/abs/2107.07933)  
