@@ -230,6 +230,12 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 
 ## 5. Other Focus / Multiple Tasks
 
+- [**SEN12MS-CR-TS**](https://patricktum.github.io/cloud_removal/) *(TUM, Jun 2022)*  
+A multi-modal and multi-temporal data set for cloud removal. It contains time-series of paired and co-registered Sentinel-1 and cloudy as well as cloud-free Sentinel-2 data from European Space Agency's Copernicus mission. Each time series contains 30 cloudy and clear observations regularly sampled throughout the year 2018. Our multi-temporal data set is readily pre-processed and backward-compatible with SEN12MS-CR. , Paper: [Ebel et al. 2022](https://ieeexplore.ieee.org/document/9691348)  
+
+- [**SEN12MS-CR**](https://patricktum.github.io/cloud_removal/) *(TUM, Jun 2020)*  
+A multi-modal and mono-temporal data set for cloud removal. It contains observations covering 175 globally distributed Regions of Interest recorded in one of four seasons throughout the year of 2018. For each region, paired and co-registered synthetic aperture radar (SAR) Sentinel-1 measurements as well as cloudy and cloud-free optical multi-spectral Sentinel-2 observations from European Space Agency's Copernicus mission are provided., Paper: [Ebel et al. 2020](https://ieeexplore.ieee.org/document/9211498)  
+
 - [**IEEE Data Fusion Contest 2021**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-dse/) *(IEEE, HP, SolarAid, Data Science Experts, Mar 2021)*   
 Detection of settlements without electricity, 98 multi-temporal/multi-sensor tiles ( Sentinel-1, Sentinel-2, Landsat-8, VIIRS), per chip & per pixel labels (contains buildings, presence electricity). 
 
