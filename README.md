@@ -164,6 +164,9 @@ Manual labeling & active learning, Paper: [Baetens et al. 2019](https://www.mdpi
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
 2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.
 
+- [**RoadNet**](https://github.com/yhlleo/RoadNet) *(Wuhan, Oct 2018)*  
+High resolution aerial images (0.21 m res.) covering 21 regions spread over 8 km2 for road network analysis, Paper: [Liu et al. 2018](https://ieeexplore.ieee.org/document/8506600)
+
 - [**SpaceNet 3: Road Network Detection**](https://spacenet.ai/spacenet-roads-dataset/) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
 8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library, Paper: [Van Etten et al. 2018](https://arxiv.org/abs/1807.01232)   
 
