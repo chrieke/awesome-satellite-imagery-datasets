@@ -127,6 +127,9 @@ Weekly Planetscope time-series (3m res.) over 2 years, 75 aois, landcover labels
 - [**Sentinel-2 Cloud Mask Catalogue**](https://zenodo.org/record/4172871) *(Francis, A., et al., Nov 2020)*
 513 cropped subscenes (1022x1022 pixels) taken randomly from entire 2018 Sentinel-2 archive. All bands resampled to 20m, stored as numpy arrays. Includes clear, cloud and cloud-shadow classes. Also comes with binary classification tags for each subscene, describing what surface types, cloud types, etc. are present.
 
+- [**MiniFrance**](https://ieee-dataport.org/open-access/minifrance) *(Université Bretagne-Sud and ONERA, Jul 2020)*  
+  2000 very high resolution aerial images over 16 cities in France (50cm res., from IGN BDORTHO), 16 landcover categories (Urban, Industrial, Pastures, Forests, etc. from Copernicus UrbanAtlas 2012), designed for _semi-supervised_ semantic segmentation. Paper: [Castillo-Navarro et al., 2021](https://hal.archives-ouvertes.fr/hal-03132924)
+
 - [**LandCoverNet: A Global Land Cover Classification Training Dataset**](https://doi.org/10.34911/rdnt.d2ce8i) *(Alemohammad S.H., et al., Jul 2020)*
 Version 1.0 of the dataset that contains data across Africa, (20% of the global dataset). 1980 image chips of 256 x 256 pixels in V1.0 spanning 66 tiles of Sentinel-2. Classes: water, natural bare ground, artificial bare ground, woody vegetation, cultivated vegetation, (semi) natural vegetation, and permanent snow/ice. Citation: [Alemohammad S.H., et al., 2020](https://doi.org/10.34911/rdnt.d2ce8i) and [blog post](https://medium.com/radiant-earth-insights/radiant-earth-foundation-releases-the-benchmark-training-data-landcovernet-for-africa-7e8906e846a3)
 
@@ -230,6 +233,9 @@ Local climate zone classification, 17 categories (10 urban e.g. compact high-ris
 
 ## 5. Other Focus / Multiple Tasks
 
+- [**IEEE Data Fusion Contest 2022**](https://www.grss-ieee.org/community/technical-committees/2022-ieee-grss-data-fusion-contest/) *(IEEE GRSS, Université Bretagne-Sud, ONERA, and European Space Agency, Jan 2022)*   
+Semi-supervised semantic segmentation, 19 cities and surroundings with multi-sensor tiles (VHR Aerial imagery 50cm res., Elevation model) & per pixel labels (contains landcover / landuse classes from UrbanAtlas 2012), [Data](https://ieee-dataport.org/competitions/data-fusion-contest-2022-dfc2022)
+
 - [**IEEE Data Fusion Contest 2021**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-dse/) *(IEEE, HP, SolarAid, Data Science Experts, Mar 2021)*   
 Detection of settlements without electricity, 98 multi-temporal/multi-sensor tiles ( Sentinel-1, Sentinel-2, Landsat-8, VIIRS), per chip & per pixel labels (contains buildings, presence electricity). 
 
@@ -240,10 +246,10 @@ Corresponding imagery from drone, satellite and ground camera of 1,652 universit
 Land cover classification based on SEN12MS dataset (see category Semantic Segmentation on this list), low- and high-resolution tracks.
 
 - [**IEEE Data Fusion Contest 2019**](https://ieee-dataport.org/open-access/data-fusion-contest-2019-dfc2019) *(IEEE, Mar 2019)*  
-Multiple tracks: Semantic 3D reconstruction, Semantic Stereo, 3D-Point Cloud Classification. Worldview-3 (8-band, 0.35cm res.) satellite imagery, LiDAR (0.80m pulse spacing, ASCII format), semantic labels, urban setting USA, baseline methods provided, Paper: [Le Saux et al. 2019](https://ieeexplore.ieee.org/document/8672157)   
+Multiple tracks: Semantic 3D reconstruction, Semantic Stereo, 3D-Point Cloud Classification. Worldview-3 (8-band, 35cm res.) satellite imagery, LiDAR (0.80m pulse spacing, ASCII format), semantic labels, urban setting USA, baseline methods provided, Paper: [Le Saux et al. 2019](https://ieeexplore.ieee.org/document/8672157)   
 
 - [**IEEE Data Fusion Contest 2018**](https://ieee-dataport.org/open-access/2018-ieee-grss-data-fusion-challenge-%E2%80%93-fusion-multispectral-lidar-and-hyperspectral-data) *(IEEE, Mar 2018)*  
-20 land cover categories by fusing three data sources: Multispectral LiDAR, Hyperspectral (1m), RGB imagery (0.05m res.)  
+20 land cover categories by fusing three data sources: Multispectral LiDAR, Hyperspectral (1m), RGB imagery (0.05m res.), Paper: [Xu et al. 2019](https://ieeexplore.ieee.org/document/8727489)
 
 - [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
 Three challenge tracks: Road Extraction, Building Detection, Land cover classification, Paper: [Demir et al. 2018](https://arxiv.org/abs/1805.06561)  
