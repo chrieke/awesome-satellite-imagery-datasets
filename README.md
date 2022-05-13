@@ -6,7 +6,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
-- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(Wuhan University, Oct 2021)*  
+- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(University of Maryland, Jun 2021)*  
   2343 image chips (drone imagery), 10 landcover categories (background, water, building flooded, building non-flooded,
   road-flooded, ...). Paper: [Rahnemoonfar et al., 2021](https://arxiv.org/abs/2012.02951)
 
@@ -111,7 +111,7 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ## 3. Semantic Segmentation
 
-- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(Wuhan University, Oct 2021)*  
+- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(University of Maryland, Jun 2021)*  
   2343 image chips (drone imagery), 10 landcover categories (background, water, building flooded, building non-flooded, 
   road-flooded, ...). Paper: [Rahnemoonfar et al., 2021](https://arxiv.org/abs/2012.02951)
 
@@ -126,6 +126,9 @@ Weekly Planetscope time-series (3m res.) over 2 years, 75 aois, landcover labels
 
 - [**Sentinel-2 Cloud Mask Catalogue**](https://zenodo.org/record/4172871) *(Francis, A., et al., Nov 2020)*
 513 cropped subscenes (1022x1022 pixels) taken randomly from entire 2018 Sentinel-2 archive. All bands resampled to 20m, stored as numpy arrays. Includes clear, cloud and cloud-shadow classes. Also comes with binary classification tags for each subscene, describing what surface types, cloud types, etc. are present.
+
+- [**MiniFrance**](https://ieee-dataport.org/open-access/minifrance) *(Université Bretagne-Sud and ONERA, Jul 2020)*  
+  2000 very high resolution aerial images over 16 cities in France (50cm res., from IGN BDORTHO), 16 landcover categories (Urban, Industrial, Pastures, Forests, etc. from Copernicus UrbanAtlas 2012), designed for _semi-supervised_ semantic segmentation. Paper: [Castillo-Navarro et al., 2021](https://hal.archives-ouvertes.fr/hal-03132924)
 
 - [**LandCoverNet: A Global Land Cover Classification Training Dataset**](https://doi.org/10.34911/rdnt.d2ce8i) *(Alemohammad S.H., et al., Jul 2020)*
 Version 1.0 of the dataset that contains data across Africa, (20% of the global dataset). 1980 image chips of 256 x 256 pixels in V1.0 spanning 66 tiles of Sentinel-2. Classes: water, natural bare ground, artificial bare ground, woody vegetation, cultivated vegetation, (semi) natural vegetation, and permanent snow/ice. Citation: [Alemohammad S.H., et al., 2020](https://doi.org/10.34911/rdnt.d2ce8i) and [blog post](https://medium.com/radiant-earth-insights/radiant-earth-foundation-releases-the-benchmark-training-data-landcovernet-for-africa-7e8906e846a3)
@@ -163,6 +166,9 @@ Manual labeling & active learning, Paper: [Baetens et al. 2019](https://www.mdpi
 
 - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
 2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.
+
+- [**RoadNet**](https://github.com/yhlleo/RoadNet) *(Wuhan, Oct 2018)*  
+High resolution aerial images (0.21 m res.) covering 21 regions spread over 8 km2 for road network analysis, Paper: [Liu et al. 2018](https://ieeexplore.ieee.org/document/8506600)
 
 - [**SpaceNet 3: Road Network Detection**](https://spacenet.ai/spacenet-roads-dataset/) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
 8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library, Paper: [Van Etten et al. 2018](https://arxiv.org/abs/1807.01232)   
@@ -236,6 +242,9 @@ A multi-modal and multi-temporal data set for cloud removal. It contains time-se
 - [**SEN12MS-CR**](https://patricktum.github.io/cloud_removal/) *(TUM, Jun 2020)*  
 A multi-modal and mono-temporal data set for cloud removal. It contains observations covering 175 globally distributed Regions of Interest recorded in one of four seasons throughout the year of 2018. For each region, paired and co-registered synthetic aperture radar (SAR) Sentinel-1 measurements as well as cloudy and cloud-free optical multi-spectral Sentinel-2 observations from European Space Agency's Copernicus mission are provided., Paper: [Ebel et al. 2020](https://ieeexplore.ieee.org/document/9211498)  
 
+- [**IEEE Data Fusion Contest 2022**](https://www.grss-ieee.org/community/technical-committees/2022-ieee-grss-data-fusion-contest/) *(IEEE GRSS, Université Bretagne-Sud, ONERA, and European Space Agency, Jan 2022)*   
+Semi-supervised semantic segmentation, 19 cities and surroundings with multi-sensor tiles (VHR Aerial imagery 50cm res., Elevation model) & per pixel labels (contains landcover / landuse classes from UrbanAtlas 2012), [Data](https://ieee-dataport.org/competitions/data-fusion-contest-2022-dfc2022)
+
 - [**IEEE Data Fusion Contest 2021**](https://www.grss-ieee.org/community/technical-committees/2021-ieee-grss-data-fusion-contest-track-dse/) *(IEEE, HP, SolarAid, Data Science Experts, Mar 2021)*   
 Detection of settlements without electricity, 98 multi-temporal/multi-sensor tiles ( Sentinel-1, Sentinel-2, Landsat-8, VIIRS), per chip & per pixel labels (contains buildings, presence electricity). 
 
@@ -246,10 +255,10 @@ Corresponding imagery from drone, satellite and ground camera of 1,652 universit
 Land cover classification based on SEN12MS dataset (see category Semantic Segmentation on this list), low- and high-resolution tracks.
 
 - [**IEEE Data Fusion Contest 2019**](https://ieee-dataport.org/open-access/data-fusion-contest-2019-dfc2019) *(IEEE, Mar 2019)*  
-Multiple tracks: Semantic 3D reconstruction, Semantic Stereo, 3D-Point Cloud Classification. Worldview-3 (8-band, 0.35cm res.) satellite imagery, LiDAR (0.80m pulse spacing, ASCII format), semantic labels, urban setting USA, baseline methods provided, Paper: [Le Saux et al. 2019](https://ieeexplore.ieee.org/document/8672157)   
+Multiple tracks: Semantic 3D reconstruction, Semantic Stereo, 3D-Point Cloud Classification. Worldview-3 (8-band, 0.35cm res.) satellite imagery, LiDAR (0.80m pulse spacing, ASCII format), semantic labels, urban setting USA, baseline methods provided, Paper: [Le Saux et al. 2019](https://ieeexplore.ieee.org/document/8672157) [Outcome Part A: Kunwar et al. 2020](https://ieeexplore.ieee.org/document/9229514) [Outcome Part B: Lian et al. 2020](https://ieeexplore.ieee.org/document/9246669)    
 
 - [**IEEE Data Fusion Contest 2018**](https://ieee-dataport.org/open-access/2018-ieee-grss-data-fusion-challenge-%E2%80%93-fusion-multispectral-lidar-and-hyperspectral-data) *(IEEE, Mar 2018)*  
-20 land cover categories by fusing three data sources: Multispectral LiDAR, Hyperspectral (1m), RGB imagery (0.05m res.)  
+20 land cover categories by fusing three data sources: Multispectral LiDAR, Hyperspectral (1m), RGB imagery (0.05m res.), Paper: [Xu et al. 2019](https://ieeexplore.ieee.org/document/8727489)
 
 - [**DEEPGLOBE - 2018 Satellite Challange**](http://deepglobe.org/index.html) *(CVPR, Apr 2018)*  
 Three challenge tracks: Road Extraction, Building Detection, Land cover classification, Paper: [Demir et al. 2018](https://arxiv.org/abs/1805.06561)  
