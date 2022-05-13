@@ -6,7 +6,7 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 ## Recent additions and ongoing competitions
 
-- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(Wuhan University, Oct 2021)*  
+- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(University of Maryland, Jun 2021)*  
   2343 image chips (drone imagery), 10 landcover categories (background, water, building flooded, building non-flooded,
   road-flooded, ...). Paper: [Rahnemoonfar et al., 2021](https://arxiv.org/abs/2012.02951)
 
@@ -111,7 +111,7 @@ Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB 
 
 ## 3. Semantic Segmentation
 
-- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(Wuhan University, Oct 2021)*  
+- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(University of Maryland, Jun 2021)*  
   2343 image chips (drone imagery), 10 landcover categories (background, water, building flooded, building non-flooded, 
   road-flooded, ...). Paper: [Rahnemoonfar et al., 2021](https://arxiv.org/abs/2012.02951)
 
