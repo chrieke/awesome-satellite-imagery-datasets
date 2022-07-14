@@ -1,3 +1,7 @@
+*The list is now **archived**. Please see these fantastic ressources for more recent datasets:
+[satellite-image-deepl-learning](https://github.com/robmarkcole/satellite-image-deep-learning#datasets) &
+[Awesome_Satellite_Benchmark_Datasets](https://github.com/Seyed-Ali-Ahmadi/Awesome_Satellite_Benchmark_Datasets)*
+
 # Awesome Satellite Imagery Datasets [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 List of aerial and satellite imagery datasets with annotations for computer vision and deep learning. Newest datasets at the top of each category (Instance segmentation, object detection, semantic segmentation, scene classification, other).   
